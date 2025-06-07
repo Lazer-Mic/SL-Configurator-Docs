@@ -9,6 +9,7 @@ description = "Comprehensive documentation for the esave SL-Configurator softwar
 build-dir = "book"
 
 [output.html]
+site-url = "/SL-Configurator-Docs/"
 git-repository-url = "https://github.com/Lazer-Mic/SL-Configurator-Docs"
 git-repository-icon = "fa-github"
 edit-url-template = "https://github.com/Lazer-Mic/SL-Configurator-Docs/edit/main/de/src/{path}"
