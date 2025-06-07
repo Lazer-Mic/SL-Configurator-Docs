@@ -1,0 +1,16 @@
+# Einleitung
+
+> ⚠️ **Warnung:**  
+> **Der SL-Configurator kann nur in Kombination mit einem esave SLC-USB Stick verwendet werden.**  
+> Der SLC-USB Stick hat ein eingebautes Funkmodul, mit dem eine sichere Verbindung mit esave SL-Controller hergestellt wird.
+
+> ℹ️ **Information:**  
+> **Die Software benötigt einen Computer oder ein Tablet mit Windows-Betriebssystem.**
+
+## Hauptansicht des SL-Configurators
+
+Die SL-Configurator Software ist eine benutzerfreundliche Windows-Anwendung zur Anzeige, Konfiguration und Verwaltung von Leuchten, die mit esave SL-Controllern ausgestattet sind.
+
+![Hauptansicht des SL-Configurators](../../images/de/0-einleitung/einleitung.png)
+
+*Die Software ist ein leistungsstarkes Werkzeug, das den Nutzern ermöglicht, das Netzwerk in einer einfachen grafischen Oberfläche zu visualisieren. Dadurch können Anpassungen schnell und unkompliziert vor Ort vorgenommen werden, ohne dass eine Internetverbindung erforderlich ist.* 

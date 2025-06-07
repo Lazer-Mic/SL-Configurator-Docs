@@ -1,0 +1,1 @@
+# Funkkanal und Passwort ändern

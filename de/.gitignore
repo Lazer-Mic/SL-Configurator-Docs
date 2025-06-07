@@ -1,0 +1,10 @@
+# mdbook build directory
+book/
+
+# System files
+.DS_Store
+*/.DS_Store
+
+# Temporary files
+*~
+*.tmp 

@@ -1,0 +1,1 @@
+# Helligkeitssensor Konfiguration
