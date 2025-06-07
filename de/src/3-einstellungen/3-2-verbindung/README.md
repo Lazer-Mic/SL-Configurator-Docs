@@ -1,6 +1,6 @@
 # Verbindung
 
-![Verbindungs Einstellungen](images/de/3-einstellungen/2-verbindung/verbindung.png)
+![Verbindungs Einstellungen](verbindung.png)
 
 ## Beim Start automatisch verbinden
 

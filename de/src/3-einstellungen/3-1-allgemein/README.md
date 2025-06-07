@@ -1,6 +1,6 @@
 # Allgemein
 
-![Einstellungen öffnen](images/de/3-einstellungen/1-allgemein/allgemein.png)
+![Einstellungen öffnen](allgemein.png)
 
 *Reiter: Allgemein*
 
