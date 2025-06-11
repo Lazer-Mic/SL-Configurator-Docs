@@ -1,21 +1,4 @@
----
-title: ''
-description: ''
-date: ''
-last_updated: ''
-category: ''
-order: ''
-language: ''
-status: ''
-tags: ''
-author: ''
-version: ''
-slug: ''
-image: ''
-toc: ''
-layout: ''
----
-# 4.9 Übergeordneter Lichtschalter
+# Übergeordneter Lichtschalter
 
 Lichtschalter höherer Hierarchie bzw. Übersteuerungsschalter übersteuern den normalen Betriebsmodus der Leuchten, wenn Sie aktiviert sind. Sobald der Lichtschalter ausgeschaltet wird, kehrt die Leuchte in den normalen Betriebsmodus zurück.
 Leuchten können einer oder mehreren der 64 Lichtschaltergruppen zugewiesen werden. Die Auswahl der Funktion erfolgt über die Schaltfläche Übergeordneter Lichtschalter- Gruppen.
