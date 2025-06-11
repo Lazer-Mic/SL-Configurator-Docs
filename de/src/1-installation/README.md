@@ -1,14 +1,17 @@
 # Installation
+> ℹ️ **Info**  
+>  **Die Software benötigt einen Computer oder ein Tablet mit Windows-Betriebssystem.**
+>  **Für die Konfiguration von Gen 2 SL-Controller (20x) wird die SL-Configurator Version 2.5 (Build 8441) oder höher benötigt. Die aktuelle Softwareversion kann auf Hilfe > Info Über … eingesehen werden.**
 
-> ⚠️ **Warnung:**  
-> **Der esave SLC-USB Stick darf erst nach der Installation der Software und des Treibers an den Computer angeschlossen werden**
+> ⚠️ **WARNUNG**  
+> **Der esave-SLC-USB Stick darf erst nach der Installation der Software und des Treibers an den Computer angeschlossen werden**
 
 Die aktuelle SL-Configurator Software kann kostenlos von der esave Website heruntergeladen werden:  
 [⬇️ SL-Configurator herunterladen](https://www.esaveag.com/iLightConfigurator/esave/esave_slConfiguratorSetup.exe)
 
 ![Download und Ausführen der Setup-Datei unter Windows 11](installation-1-download.png)
 
-*Führen Sie die heruntergeladene <strong>.exe</strong> aus, um die Installation zu starten.*
+*Führen Sie die heruntergeladene Datei <strong>esave_slConfiguratorSetup.exe</strong> aus, um die Installation zu starten.*
 
 ![Smartscreen Screenshot](installation-2-smartscreen-1.png)
 
