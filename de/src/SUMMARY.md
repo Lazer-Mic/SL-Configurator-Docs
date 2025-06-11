@@ -36,7 +36,7 @@
 - [Gerätegruppen](./5-geraetegruppen/README.md)
 - [Sensoren](./6-sensoren/README.md)
   - [Konfiguration des Radarsensors](./6-sensoren/6.1-konfiguration-des-radarsensors/README.md)
-- [Master-Lichtschalter](./7-master-lichtschalter/README.md)
+- [Übergeordnete Lichtschalter](./7-uebergeordnete-lichtschalter/README.md)
 
 ## Erweiterte Funktionen
 - [Servicemodus](./8-servicemodus/README.md)
