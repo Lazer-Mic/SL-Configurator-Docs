@@ -1,4 +1,4 @@
-# 10 Datenexport
+# Datenexport
 
 Alle Geräte- und Gerätegruppendaten können über die Exportfunktion im CSV- (Excel) und XML-Format exportiert werden.
 So können Sie beispielsweise auslesen, wie lange die Leuchten in Betrieb waren oder wie viele Bewegungen gezählt wurden. Zusätzlich ist es möglich, den Energieverbrauch in Wattstunden (Wh) sowie die eingesparte Energie anzuzeigen.

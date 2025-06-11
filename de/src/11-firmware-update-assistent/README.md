@@ -1,4 +1,4 @@
-# 11 Firmware-Update-Assistent
+# Firmware-Update-Assistent
 
 Mit dem automatischen Firmware-Update-Assistenten kann die Firmware für mehrere Geräte gleichzeitig aktualisiert werden. Um den Assistenten zu starten, klicken Sie auf Werkzeuge > Automatischer Firmware-Update-Assistent...
 Die aktuelle Firmware, die mit Ihrer SL Configurator-Version geliefert wird, wird automatisch ausgewählt und im Bereich Ausgewählte Firmware mit der Versionsnummer angezeigt.
