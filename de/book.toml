@@ -17,3 +17,5 @@ edit-url-template = "https://github.com/Lazer-Mic/SL-Configurator-Docs/edit/main
 use-boolean-and = true
 prebuild-index = true 
 site-url = "/SL-Configurator-Docs/"
+
+# Force rebuild for image path fix
