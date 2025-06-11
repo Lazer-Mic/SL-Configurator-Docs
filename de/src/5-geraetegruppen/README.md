@@ -1,4 +1,4 @@
-# 5 Gerätegruppen
+# Gerätegruppen
 
 In einem größeren System können mehrere Leuchten innerhalb einer Standardgruppe unübersichtlich werden. Um dies zu vermeiden, können die Leuchten in verschiedenen Gruppen organisiert werden.
 Eine neue Gruppe kann über das Symbol in der oberen linken Ecke der SL- Configurator Software erstellt werden.
