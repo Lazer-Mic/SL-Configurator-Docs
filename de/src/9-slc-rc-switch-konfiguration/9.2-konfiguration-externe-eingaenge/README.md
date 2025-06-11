@@ -1,21 +1,4 @@
----
-title: ''
-description: ''
-date: ''
-last_updated: ''
-category: ''
-order: ''
-language: ''
-status: ''
-tags: ''
-author: ''
-version: ''
-slug: ''
-image: ''
-toc: ''
-layout: ''
----
-# 9.2 Konfiguration Externe Eingänge
+# Konfiguration Externe Eingänge
 
 Die 3 externen Eingänge können zum Beispiel verwendet werden, um einen manuellen Schalter anzuschliessen. Um die Externen Eingänge zu konfigurieren, im Bereich Externe Eingänge auf Konfiguration externe Eingänge klicken.
 Es stehen folgende Konfigurationsmöglichkeiten zur Verfügung:

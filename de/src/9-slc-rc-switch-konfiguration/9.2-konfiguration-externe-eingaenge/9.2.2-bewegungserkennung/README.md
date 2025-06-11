@@ -1,21 +1,4 @@
----
-title: ''
-description: ''
-date: ''
-last_updated: ''
-category: ''
-order: ''
-language: ''
-status: ''
-tags: ''
-author: ''
-version: ''
-slug: ''
-image: ''
-toc: ''
-layout: ''
----
-# 9.2 Bewegungserkennung
+# Bewegungserkennung
 
 Mit der Registerkarte Bewegungserkennung kann das Ein- und Ausschaltverhalten der 3 Ausgänge bewegungsabhängig konfiguriert werden.
 Relay Zustände:
