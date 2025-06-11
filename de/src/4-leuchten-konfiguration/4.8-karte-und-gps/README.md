@@ -1,4 +1,4 @@
-# 4.8 Karte und GPS
+# Karte und GPS
 
 Um eine Leuchte auf der Karte anzeigen zu können, müssen die Koordinaten der Leuchte definiert werden. Das verwendete Koordinatensystem ist WGS84.
 Um einer Leuchte Koordinaten zuzuweisen, gibt es die folgenden Möglichkeiten:
