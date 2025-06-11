@@ -16,4 +16,4 @@ edit-url-template = "https://github.com/Lazer-Mic/SL-Configurator-Docs/edit/main
 [output.html.search]
 use-boolean-and = true
 prebuild-index = true 
-site-url = "/"
+site-url = "/SL-Configurator-Docs/"
