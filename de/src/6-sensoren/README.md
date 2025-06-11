@@ -1,6 +1,6 @@
-# 6 Sensoren
+# Sensoren
 
-Wenn die Software beim Start einen kompatiblen Sensor erkennt, wird automatisch ein neuer Abschnitt mit den Sensordaten erstellt.
+Wenn die Software beim Start einen kompatiblen Sensor erkennt, wird automatisch ein neuer Abschnitt mit den Daten des Sensors erstellt.
 > ℹ️ **Information:**  
 > info
-Wenn für bestimmte Sensoren zusätzliche Konfigurationsmöglichkeiten vorhanden sind, werden diese unter der Sensorbeschreibung angezeigt. 
+Sollte es für bestimmte Sensoren weitere Konfigurationsmöglichkeiten geben, werden diese unterhalb der Sensorbeschreibung angezeigt.

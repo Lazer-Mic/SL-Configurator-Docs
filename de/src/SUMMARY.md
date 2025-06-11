@@ -35,7 +35,7 @@
   - [Konfiguration der Mobilfunkverbindung](./4-leuchten-konfiguration/4.11-konfiguration-der-mobilfunkverbindung/README.md)
 - [Gerätegruppen](./5-geraetegruppen/README.md)
 - [Sensoren](./6-sensoren/README.md)
-  - [Radar Sensor Konfiguration](./6-sensoren/6.1-radar-sensor-konfiguration/README.md)
+  - [Konfiguration des Radarsensors](./6-sensoren/6.1-konfiguration-des-radarsensors/README.md)
 - [Master-Lichtschalter](./7-master-lichtschalter/README.md)
 
 ## Erweiterte Funktionen
