@@ -1,3 +1,3 @@
-# 8.3 Empfang
+# Empfang
 
-Im Empfangsfenster werden alle Leuchten angezeigt, die mit der aktuell ausgewählten Leuchte kommunizieren können. Die entsprechenden Farben zeigen die jeweilige Signalstärke an. 
+Im Fenster Empfang werden alle Leuchten angezeigt, welche mit der aktuell ausgewählten Leuchte kommunizieren können. Die entsprechenden Farben zeigen die jeweilige Empfangsstärke an.

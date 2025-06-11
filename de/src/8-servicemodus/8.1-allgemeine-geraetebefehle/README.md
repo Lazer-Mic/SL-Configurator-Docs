@@ -1,7 +1,7 @@
-# 8.1 Allgemeine Gerätebefehle
+# Allgemeine Gerätebefehle
 
-Unter den allgemeinen Gerätebefehlen befinden sich folgende Befehle:
-Zurücksetzen auf Werkseinstellungen:
-Setzt alle Geräteeinstellungen auf die Werkseinstellungen zurück.
+Unter den allgemeinen Gerätebefehlen gibt es die folgenden Befehle:
+Auf Werkseinstellungen zurücksetzen:
+Setzt alle Geräteeinstellungen auf die Werkseinstellungen zurück
 Gerät neu starten:
-Führt einen Soft-Reset durch und das Gerät startet neu. 
+Führt einen Soft- Reset durch und das Gerät startet neu

@@ -1,6 +1,6 @@
-# 8 Servicemodus
+# Service Modus
 
 Der Servicemodus enthält erweiterte Einstellungen, die den Betrieb der Leuchte beeinflussen.
 > ℹ️ **Information:**  
 > info
-Der Servicemodus kann unter dem Menüpunkt Ansicht > Servicemodus aktiviert werden. Ein neuer Service-Tab erscheint rechts neben dem Karten-Tab. 
+Der Servicemodus kann unter dem Menüpunkt Anzeige > Service Mode aktiviert werden. Es erscheint ein neuer Reiter Service rechts neben dem Reiter Karte.

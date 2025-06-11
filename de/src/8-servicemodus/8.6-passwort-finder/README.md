@@ -1,3 +1,3 @@
-# 8.6 Passwort-Finder
+# Passwortfinder
 
-Diese Funktion ist nur für esave Distributoren verfügbar. 
+Diese Funktion ist nur für esave Distributoren verfügbar.

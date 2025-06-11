@@ -1,3 +1,3 @@
-# 8.2 Gerätestatus
+# Gerätestatus
 
-Über das Menü Gerätestatus können die Einschaltzeit, der Hardware-Status und das Statusprotokoll eingesehen werden. 
+Die Einschaltzeit, der Hardwarestatus und das Statusprotokoll können über das Menü Gerätestatus eingesehen werden.
