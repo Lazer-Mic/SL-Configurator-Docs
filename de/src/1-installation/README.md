@@ -11,7 +11,7 @@ Die aktuelle SL-Configurator Software kann kostenlos von der esave Website herun
 
 ![Download und Ausführen der Setup-Datei unter Windows 11](installation-1-download-1.png)
 
-*Im Browser erscheient eine Meldung das die Software nich oft heruntergeladen wird.*
+*Im Browser erscheient eine Meldung dass die Software nich oft heruntergeladen wird.*
 
 ![Download und Ausführen der Setup-Datei unter Windows 11](installation-2-download-2.png)
 
