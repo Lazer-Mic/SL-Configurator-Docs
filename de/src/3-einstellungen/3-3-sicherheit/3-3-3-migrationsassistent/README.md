@@ -1,4 +1,4 @@
-# Systempasswort (PIN) Migrationsassistent starten
+# Systempasswort (PIN) Migrationsassistent
 
 Der Migrationsassistent verteilt das gesetzte Systempsswort (PIN) an die Lampencontroller.
 
