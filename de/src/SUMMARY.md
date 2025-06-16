@@ -9,6 +9,9 @@
   - [Allgemein](./3-einstellungen/3-1-allgemein/README.md)
   - [Verbindung](./3-einstellungen/3-2-verbindung/README.md)
   - [Sicherheit](./3-einstellungen/3-3-sicherheit/README.md)
+    - [PIN setzen](./3-einstellungen/3-3-sicherheit/3-3-1-pin-setzen/README.md)
+    - [PIN löschen](./3-einstellungen/3-3-sicherheit/3-3-2-pin-loeschen/README.md)
+    - [Migrationsassistent](./3-einstellungen/3-3-sicherheit/3-3-3-migrationsassistent/README.md)
   - [Karte](./3-einstellungen/3-4-karte/README.md)
   - [Lokaler GPS Empfänger](./3-einstellungen/3-5-lokaler-gps-empfaenger/README.md)
 
