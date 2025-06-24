@@ -7,4 +7,7 @@ book/
 
 # Temporary files
 *~
-*.tmp 
+*.tmp
+
+# VS Code workspace files
+*.code-workspace 
