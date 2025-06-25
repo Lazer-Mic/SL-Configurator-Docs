@@ -11,5 +11,5 @@ Der Funkkanal kann im Configurator unter Einstellungen- Verbindung, oder mit ein
 <strong>Funkkanal- Migrationsassistent</strong>
 Startet einen Assistenten mit dem der Funkkanal für mehrere Leuchten in einer Anlage gewechselt werden kann.
 
-> ⚠ **WARNUNG**  
-> **Sie können nur auf Leuchten zugreifen, die auf dem gleichen Funkkanal eingestellt sind wie der esave-SLC-USB Stick.**
+> ⚠ *warnung*  
+> Sie können nur auf Leuchten zugreifen, die auf dem gleichen Funkkanal eingestellt sind wie der esave-SLC-USB Stick.

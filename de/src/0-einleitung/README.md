@@ -9,5 +9,6 @@
 > Der SL-Configurator kann nur in Kombination mit einem esave SLC-USB Stick verwendet werden.
 >
 >Der SLC-USB Stick hat ein eingebautes Funkmodul, mit dem eine sichere Verbindung mit eSave SL-Controller hergestellt wird.
-
-![USB-Stick](/SL-Configurator-Docs/0-einleitung/usb-stick.png) 
+>
+>![USB-Stick](/SL-Configurator-Docs/0-einleitung/usb-stick.png) 
+>
