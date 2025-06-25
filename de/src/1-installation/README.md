@@ -1,9 +1,9 @@
 # Installation
-> ℹ **info:**  
+> ℹ *information:*  
 >  Die Software benötigt einen Computer oder ein Tablet mit Windows-Betriebssystem.
 >  Für die Konfiguration von Gen 2 SL-Controller (20x) wird die SL-Configurator Version 2.5 (Build 8441) oder höher benötigt. Die aktuelle Softwareversion kann auf Hilfe > Info Über … eingesehen werden.
 
-> ⚠ **warnung:**  
+> ⚠ *warnung:*  
 > Der esave-SLC-USB Stick darf erst nach der Installation der Software und des Treibers an den Computer angeschlossen werden.
 
 
