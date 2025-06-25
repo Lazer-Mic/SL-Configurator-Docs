@@ -1,7 +1,7 @@
 # Erweiterungs-Schaltausgang
 
 Der Erweiterungs- Schaltausgang ist ein zusätzlicher Ausgang zur Dimmschnittstelle welcher konfiguriert werden kann.
-> ℹ️ **Information:**  
+> ℹ **Information:**  
 > info
 Ein- und Aus- Modus
 Der Erweiterungsschaltausgang kann mit den Modi Aus und Ein in einen dauerhaften Zustand versetzt werden. Das bedeutet, dass der Erweiterungsschaltausgang unabhängig von der Dimmschnittstelle, den Betriebszeiten oder der Umgebungshelligkeit dauerhaft ein- oder ausgeschaltet werden kann.
@@ -19,5 +19,5 @@ Der Modus nach Umgebungshelligkeit kann mit Zeitschritten kombiniert werden. Die
 Wenn der Modus Nach Umgebungshelligkeit für sich allein verwendet wird, muss nur der Schwellwert der Umgebungshelligkeit unterschritten werden, um das Dimm- Profil zu aktivieren.
 Nach Zeit
 Die Limiten von Modus nach Zeit sind global interpretierte Werte. Nur innerhalb dieser Limiten kann der Ausgang eingeschaltet werden. Nebst diesen Limiten müssen noch Zeitschritte definiert werden. Erst wenn beide Voraussetzungen erfüllt sind, wird der Ausgang an gehen.
-> ℹ️ **Information:**  
+> ℹ **Information:**  
 > info

@@ -46,7 +46,7 @@ Im Tunnelmodus wird das Dimmlevel auf den Wert der Basishelligkeit zurückgestel
 <strong>Testmodus</strong>
 Im Testmodus kann die Helligkeit der Leuchte manuell eingestellt werden, indem der Schieberegler bewegt wird. Alle anderen Funktionen (Dimmprofil / Bewegungsmelder) sind in diesem Modus deaktiviert.
 
-> ⚠️ **WARNUNG**  
+> ⚠ **WARNUNG**  
 > **Die eingestellte Helligkeit wird im Testmodus nicht gespeichert und geht bei einem Neustart der Steuerung verloren!**
 
 ![ein-aus-modus](ein-aus-modus-1.png)

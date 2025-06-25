@@ -3,7 +3,7 @@
 ![Sicherheit](sicherheit.png)
 *im Reiter Sicherheit haben Sie die Möglichkeiten den PIN zu erstellen, zu löschen und den Migrationsassistent zu starten.*
 
-> ℹ️ **Info**  
+> ℹ **Info**  
 >**Um mit den Leuchten kommunizieren zu können, muss das Systempasswort (PIN) der Leuchte und das Systempasswort (PIN) welches in SL-Configurator gesetzt ist <strong>übereinstimmen</strong>. Leuchten welche mit einem anderen Systempasswort (PIN) geschützt sind werden in der Geräteliste bewusst nicht angezeigt.**
 
 <strong>Systempasswort (PIN)</strong>

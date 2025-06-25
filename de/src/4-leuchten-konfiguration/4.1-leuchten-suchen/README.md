@@ -2,7 +2,7 @@
 
 ![leuchten-suchen](leuchten-suchen-1-1.png)
 
-> ℹ️ **Info**
+> ℹ **Info**
 > 
 > Um mit den Leuchten kommunizieren zu können, muss der Funkkanal der Leuchte und mit dem Funkkanal, welcher im SL- Configurator eingestellt ist übereinstimmen.
 
@@ -12,7 +12,7 @@
 ![leuchten-suchen](leuchten-suchen-1-3.png)
 *Der Funkkanal kann auch durch Doppelklick auf das Kanal Symbol am unteren Bildschirmrand geändert werden.*
 
-> ℹ️ **Info**
+> ℹ **Info**
 > 
 > Wenn der Funkkanal der Leuchte bekannt ist, kann er direkt eingestellt werden. Ist der Funkkanal nicht bekannt, können mit der Auswahl "Automatisch" alle Funkkanäle durchsucht werden.Findet der SL- Configurator eine Leuchte auf einem Funkkanal, bricht er die Suche ab und bleibt bei diesem Kanal stehen. 
 

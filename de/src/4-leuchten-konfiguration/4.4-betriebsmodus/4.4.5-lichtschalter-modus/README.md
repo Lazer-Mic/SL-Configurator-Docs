@@ -17,7 +17,7 @@ Typ:
 Zeigt den aktuell eingestellten Lichtschaltertyp an.
 Es gibt 2 Optionen für den Betrieb als Taster:
 Umschaltmodus für Taster: Wenn dies aktiviert ist, wechselt der Status des Lichtschalters bei jeder Betätigung zwischen ein und aus. Beim ersten Druck schaltet der Lichtschalter ein, beim zweiten Druck schaltet der Lichtschalter aus, usw.
-> ℹ️ **Information:**  
+> ℹ **Information:**  
 > info
 Zeitlimit:
 Durch ein Zeitlimit wird festgelegt, wie lange der Lichtschaltbefehl aktiv sein kann. Nach Ablauf dieses Zeitlimits wird der Befehl automatisch abgeschaltet. Ist das Kontrollkästchen Zeit neu starten aktiviert, wird der Lichtschalter bei jeder Auslösung innerhalb des Zeitlimits neu gestartet.

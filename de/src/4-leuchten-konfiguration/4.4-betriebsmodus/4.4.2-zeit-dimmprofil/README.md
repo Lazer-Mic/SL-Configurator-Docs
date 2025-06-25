@@ -13,5 +13,5 @@ Der Helligkeit bei Bewegung- Schieberegler zeigt den Wert des Dimm- Levels bei B
 Das Kontrollkästchen Bewegungserkennung kann deaktiviert werden, um die Objekterkennung auf der aktiven Dimmstufe auszuschalten.
 Wochentage:
 Für verschiedene Wochentage können unterschiedliche Dimmstufen definiert werden. Auf der linken Seite des Diagramms sind die Wochentage gruppiert. Um eine neue Wochentagsgruppe zu erstellen (z. B. Montag- Freitag), können Sie unerwünschte Tage in der ersten angezeigten Gruppe deaktivieren. Dadurch wird automatisch eine neue Wochentagsgruppe erstellt. Jeder Wochentag kann nur in einer Gruppe vorkommen.
-> ℹ️ **Information:**  
+> ℹ **Information:**  
 > info
