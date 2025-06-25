@@ -1,7 +1,5 @@
 # Systempasswort (PIN) Migrationsassistent
 
-Der Migrationsassistent verteilt das gesetzte Systempsswort (PIN) an die Lampencontroller.
-
 ![Systempasswort Migration](migrationsassistent-1.png)
 *Klicken Sie auf „systempasswort (PIN) Migrationsassistent starten.*
 ![Systempasswort Migration](migrationsassistent-2.png)
