@@ -1,8 +1,7 @@
 # Einstellungen
-
 ![Einstellungen öffnen](einstellungen-1.png)
 
-*Öffnen Sie die SL-Configurator Einstellungen, indem Sie in der Navigationsleiste auf Einstellungen im Dropdown-Menü Einstellungen klicken (Einstellungen > Einstellungen).*
+*Öffnen Sie die SL-Configurator Einstellungen.*
 
 ## Hauptfenster SL-Configurator Einstellungen
 
