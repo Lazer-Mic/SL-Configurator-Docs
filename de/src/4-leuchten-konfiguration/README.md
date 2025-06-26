@@ -1,6 +1,5 @@
 # Leuchten Konfiguration
-
-![Leuchten konfigurieren](leuchten-konfiguration.png)
+![Leuchten konfigurieren](leuchten-konfiguration.png)  
 *Wählen Sie unter <strong>verfügbare Geräte</strong> die Steuerung aus die Sie konfigurieren möchten*
 
 Bitte beachten Sie, dass je nach dem Typ der Beleuchtungssteuerung nicht alle Optionen in der Software ausgewählt werden können.
