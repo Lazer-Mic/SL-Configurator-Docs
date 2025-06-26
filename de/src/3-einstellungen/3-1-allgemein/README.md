@@ -1,5 +1,5 @@
 # Allgemein
-![Einstellungen öffnen](allgemein.png)
+![Einstellungen öffnen](allgemein.png)  
 *Reiter: Allgemein*
 
 <strong>Sprache</strong>

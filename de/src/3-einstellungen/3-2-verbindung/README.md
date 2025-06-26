@@ -1,5 +1,5 @@
 # Verbindung
-![Verbindungs Einstellungen](verbindung.png)
+![Verbindungs Einstellungen](verbindung.png)  
 
 <strong>Beim Start automatisch verbinden</strong>
 Definiert, ob die Verbindung mit dem esave SLC- USB Stick beim Starten der Software automatisch hergestellt wird.

@@ -2,7 +2,7 @@
 > ℹ *information:*  
 > Nach der Installation kann der SLC-USB Stick angeschlossen und der SL-Configurator gestartet werden.
 
-![Abschluss der Installation](aktivierung.png)
+![Abschluss der Installation](aktivierung.png)  
 *Beim ersten Start der Software muss diese mit einem <strong>gültigen Lizenzschlüssel</strong> freigeschaltet werden.*
 
 > ⚠ *warnung:*  

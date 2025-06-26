@@ -1,6 +1,6 @@
 # Lokaler GPS Empfänger
-![Einstellungen Lokaler GPS Empfänger](lokaler-gps-empfaenger.png)
+![Einstellungen Lokaler GPS Empfänger](lokaler-gps-empfaenger.png)  
 
-<strong>"Toggle" Beim Start automatisch verbinden.</strong>
+<strong>Toggle</strong> Beim Start automatisch verbinden.
 
-<strong>GPS Empfängertyp auswählen</strong>
+GPS Empfängertyp auswählen

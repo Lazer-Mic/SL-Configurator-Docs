@@ -1,11 +1,11 @@
 # Karte
-![Einstellungen Karte](karte.png)
+![Einstellungen Karte](karte.png)  
 
-<strong>"Toggle" Karte automatisch auf das ausgewählte Gerät zentrieren</strong>
+<strong>Toggle</strong> Karte automatisch auf das ausgewählte Gerät zentrieren.
 
-<strong>Kartensymbole anpassen</strong>
+Kartensymbole anpassen
 
-<strong>Benutzersymbol anpassen</strong>
+Benutzersymbol anpassen
 
-<strong>Kartendaten für offlinegebrauch herunterladen</strong>
+Kartendaten für offlinegebrauch herunterladen
 Kartendaten werden von Wikimedia Maps zur Verfügung gestellt.
