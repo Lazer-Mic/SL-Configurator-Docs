@@ -6,8 +6,8 @@
 
 ># ℹ
 >Die SL-Configurator Software ist eine benutzerfreundliche Windows-Anwendung zur Anzeige, Konfiguration und Verwaltung von Leuchten, die mit esave SL-Controllern ausgestattet sind.
->![USB-Stick](/SL-Configurator-Docs/0-einleitung/usb-stick.png)   
+>![USB-Stick](usb-stick.png)   
 >
-![Hauptansicht des SL-Configurators](/SL-Configurator-Docs/0-einleitung/einleitung.png)  
+![Hauptansicht des SL-Configurators](einleitung.png)  
 
 *Die Software ist ein leistungsstarkes Werkzeug, das den Nutzern ermöglicht, das Netzwerk in einer einfachen grafischen Oberfläche zu visualisieren. Dadurch können Anpassungen schnell und unkompliziert vor Ort vorgenommen werden, ohne dass eine Internetverbindung erforderlich ist.*

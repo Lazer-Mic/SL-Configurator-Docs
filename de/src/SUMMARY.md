@@ -1,8 +1,4 @@
-# Zusammenfassung
-
-[Einleitung](./1-einleitung/README.md)
-
-## Erste Schritte
+- [Einleitung](./1-einleitung/README.md)
 - [Installation](./2-installation/README.md)
 - [Aktivierung](./3-aktivierung/README.md)
 - [Einstellungen](./4-einstellungen/README.md)
@@ -14,8 +10,6 @@
     - [Migrationsassistent](./4-einstellungen/3-sicherheit/3-migrationsassistent/README.md)
   - [Karte](./4-einstellungen/4-karte/README.md)
   - [Lokaler GPS Empfänger](./4-einstellungen/5-lokaler-gps-empfaenger/README.md)
-
-## Geräteverwaltung
 - [Gerät](./5-geraet/README.md)
   - [Gerätekonfiguration](./5-geraet/1-geraetekonfiguration/README.md)
     - [Leuchten suchen](./5-geraet/1-geraetekonfiguration/1-leuchten-suchen/README.md)
@@ -46,8 +40,6 @@
   - [Geräteinformationen](./5-geraet/7-geraeteinformationen/README.md)
   - [Karte und GPS](./5-geraet/8-karte-und-gps/README.md)
 - [Gerätegruppen](./6-geraetegruppe/README.md)
-
-## Erweiterte Funktionen
 - [Karte](./7-karte/README.md)
 - [Servicemodus](./8-servicemodus/README.md)
   - [Allgemeine Gerätebefehle](./8-servicemodus/1-allgemeine-geraetebefehle/README.md)
