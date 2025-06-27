@@ -14,6 +14,8 @@ git-repository-icon = "fa-github"
 edit-url-template = "https://github.com/Lazer-Mic/SL-Configurator-Docs/edit/main/de/src/{path}"
 fold.enable = true
 fold.level = 0
+git-repository-content-path = "de/src"
+numbered-chapters = false
 
 [output.html.search]
 use-boolean-and = true
