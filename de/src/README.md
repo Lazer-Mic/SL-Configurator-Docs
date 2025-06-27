@@ -4,7 +4,7 @@ Willkommen zur umfassenden Dokumentation für die esave SL-Configurator Software
 
 ## Erste Schritte
 
-Beginnen Sie mit der [Installation](./2-installation/README.md) der Software und folgen Sie den Schritten zur [Aktivierung](./3-aktivierung/README.md).
+Beginnen Sie mit der [Installation](./2-installation/) der Software und folgen Sie den Schritten zur [Aktivierung](./3-aktivierung/).
 
 ## Inhaltsübersicht
 
