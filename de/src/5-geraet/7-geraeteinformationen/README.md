@@ -1,0 +1,12 @@
+# geraeteinformationen
+
+screenshot
+
+kategorien 
+¨
+¨
+¨
+¨
+¨
+¨
+¨

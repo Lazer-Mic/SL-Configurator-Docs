@@ -1,4 +1,4 @@
-# Leuchten Konfiguration
+# Gerätekonfiguration
 ![Leuchten konfigurieren](leuchten-konfiguration.png)  
 *Wählen Sie unter* `verfügbare Geräte` *die Steuerung aus die Sie konfigurieren möchten*
 

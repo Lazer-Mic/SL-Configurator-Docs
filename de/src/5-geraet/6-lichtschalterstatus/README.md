@@ -1,0 +1,12 @@
+# lichtschalterstatus
+
+screenshot
+
+kategorien 
+¨
+¨
+¨
+¨
+¨
+¨
+¨
