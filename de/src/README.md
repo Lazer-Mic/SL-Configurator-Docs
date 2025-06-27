@@ -1,5 +1,3 @@
-# SL-Configurator Documentation
-
 Willkommen zur umfassenden Dokumentation für die esave SL-Configurator Software - ein leistungsstarkes Tool zur Konfiguration und Verwaltung von Beleuchtungssystemen mit SL-Controllern.
 
 ## Erste Schritte
