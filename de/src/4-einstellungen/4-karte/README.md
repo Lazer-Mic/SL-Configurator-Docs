@@ -1,7 +1,7 @@
 # Karte
 ![Einstellungen Karte](karte.png)  
 
-<strong>Toggle</strong> Karte automatisch auf das ausgewählte Gerät zentrieren.
+**Toggle** Karte automatisch auf das ausgewählte Gerät zentrieren.
 
 Kartensymbole anpassen
 
