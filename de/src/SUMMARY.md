@@ -6,6 +6,7 @@
 - [Einstellungen](./4-einstellungen/README.md)
   - [Allgemein](./4-einstellungen/1-allgemein/README.md)
   - [Verbindung](./4-einstellungen/2-verbindung/README.md)
+    - [Funk-Kanal](./4-einstellungen/2-verbindung/1-funk-kanal/README.md)
   - [Sicherheit](./4-einstellungen/3-sicherheit/README.md)
     - [PIN setzen](./4-einstellungen/3-sicherheit/1-pin-setzen/README.md)
     - [PIN löschen](./4-einstellungen/3-sicherheit/2-pin-loeschen/README.md)

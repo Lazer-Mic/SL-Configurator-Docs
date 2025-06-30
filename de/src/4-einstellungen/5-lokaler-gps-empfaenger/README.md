@@ -3,4 +3,6 @@
 
 **Toggle** Beim Start automatisch verbinden.
 
+---
+
 GPS Empfängertyp auswählen
