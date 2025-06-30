@@ -16,6 +16,7 @@ fold.enable = true
 fold.level = 0
 git-repository-content-path = "de/src"
 numbered-chapters = false
+no-section-label = true
 
 [output.html.search]
 use-boolean-and = true
