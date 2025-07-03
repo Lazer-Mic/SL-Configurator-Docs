@@ -1,9 +1,17 @@
 # Gerätekonfiguration
 ![Geraete konfigurieren](geraete-konfiguration.png)  
-*Bitte beachten Sie, dass je nach dem Typ der Beleuchtungssteuerung nicht alle Optionen in der Software ausgewählt werden können.*
+*Hier konfigurieren Sie den ausgewählten Controller.*
 
-Bitte beachten Sie, dass je nach dem Typ der Beleuchtungssteuerung nicht alle Optionen in der Software ausgewählt werden können.
+[Zeit und Datum](./1-zeit-und-datum/)
 
-Zum Beispiel ist der Ausgangstyp der Dimmschnittstelle des SLC- Hubs auf DALI beschränkt.
+---
 
-Wenn ein Menü ausgegraut ist, kann es mit den aktuellen Einstellungen oder mit dem verwendeten Controller nicht geändert werden. 
+[Betriebsmodus](./2-betriebsmodus/)
+
+---
+
+[Nachbargeräte](./3-nachbargeraete/)
+
+---
+
+[Übergeordneter Lichtschalter](./4-uebergeordneter-lichtschalter/)
