@@ -1,12 +1,4 @@
-# leistung-und-energie
+# Radar Bewegungsmelder
+![Radar Bewegungsmelder](radar-bewegungsmelder.png)  
 
-screenshot
-
-kategorien 
-¨
-¨
-¨
-¨
-¨
-¨
-¨
+beschreibung

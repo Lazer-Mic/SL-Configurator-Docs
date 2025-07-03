@@ -1,12 +1,4 @@
-# leistung-und-energie
+# Stromzähler
+![Stromzähler](stromzaehler.png)  
 
-screenshot
-
-kategorien 
-¨
-¨
-¨
-¨
-¨
-¨
-¨
+beschreibung

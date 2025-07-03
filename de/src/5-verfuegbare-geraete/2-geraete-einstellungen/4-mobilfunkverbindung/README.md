@@ -1,12 +1,5 @@
-# mobilfunkverbindung
+# Mobilfunkverbindung
 
-screenshot
+![Mobilfunkverbindung](mobilfunkverbindung.png)  
 
-kategorien 
-¨
-¨
-¨
-¨
-¨
-¨
-¨
+beschreibung

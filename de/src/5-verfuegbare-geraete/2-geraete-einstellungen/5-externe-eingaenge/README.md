@@ -1,12 +1,5 @@
-# leistung-und-energie
+# Externe Eingänge
 
-screenshot
+![Externe Eingänge](externe-eingaenge.png)  
 
-kategorien 
-¨
-¨
-¨
-¨
-¨
-¨
-¨
+beschreibung

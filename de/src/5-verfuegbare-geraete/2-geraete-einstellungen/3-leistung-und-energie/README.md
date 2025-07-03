@@ -1,12 +1,4 @@
-# leistung-und-energie
+# Leistung und Energie
+![Leistung und Energie](leistung-und-energie.png)  
 
-screenshot
-
-kategorien 
-¨
-¨
-¨
-¨
-¨
-¨
-¨
+beschreibung

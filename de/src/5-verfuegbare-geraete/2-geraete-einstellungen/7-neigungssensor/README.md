@@ -1,12 +1,5 @@
-# neigungssensor
+# Neigungssensor
 
-screenshot
+![Neigungssensor](neigungssensor.png)  
 
-kategorien 
-¨
-¨
-¨
-¨
-¨
-¨
-¨
+beschreibung

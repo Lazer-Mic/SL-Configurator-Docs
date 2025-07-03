@@ -1,12 +1,4 @@
-# lichtschalterstatus
+# Lichtschalterstatus
+![Lichtschalterstatus](lichtschalterstatus.png)  
 
-screenshot
-
-kategorien 
-¨
-¨
-¨
-¨
-¨
-¨
-¨
+beschreibung

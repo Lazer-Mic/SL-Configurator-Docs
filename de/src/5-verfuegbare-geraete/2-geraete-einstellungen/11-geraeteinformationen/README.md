@@ -1,12 +1,4 @@
-# geraeteinformationen
+# Geräteinformationen
+![Geräteinformationen](geraeteinformationen.png)  
 
-screenshot
-
-kategorien 
-¨
-¨
-¨
-¨
-¨
-¨
-¨
+beschreibung
