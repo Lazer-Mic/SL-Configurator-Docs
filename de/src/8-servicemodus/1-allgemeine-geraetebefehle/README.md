@@ -1,4 +1,5 @@
 # Allgemeine Gerätebefehle
+![Allgemeine Gerätebefehle](allgemeine-geraetebefehle.png)  
 
 Unter den allgemeinen Gerätebefehlen gibt es die folgenden Befehle:
 Auf Werkseinstellungen zurücksetzen:

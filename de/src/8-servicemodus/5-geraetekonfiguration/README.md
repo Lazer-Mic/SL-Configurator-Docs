@@ -1,4 +1,5 @@
 # Gerätekonfiguration
+![Gerätekonfiguration](geraetekonfiguration.png)  
 
 Der Dimming Interface Ausgangstyp im Bereich Kontrollerausgang (Dimming- Interface) gibt an, auf welche Art und Weise der SLC- Controller mit dem Treiber/Dimm- Level kommuniziert.
 Die Auswahlmöglichkeiten sind wie folgt:
