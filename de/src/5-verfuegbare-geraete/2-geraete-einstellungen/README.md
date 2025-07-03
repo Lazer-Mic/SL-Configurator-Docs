@@ -1,4 +1,4 @@
-# Gerät ausgewählt
+# Gerät einstellungen
 
 Screenshot
 
