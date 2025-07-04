@@ -1,5 +1,6 @@
 # Bewegungserkennung
-
+![Bewegungserkennung](bewegungserkennung.png)  
+ 
 Auf der Registerkarte Bewegungserkennung kann das Verhalten der Leuchte im Falle einer Bewegungserkennung definiert werden:
 Der Schieberegler für die LED Helligkeit legt fest, auf welche Lichtintensität in Prozent sich die Leuchte einstellt, wenn eine Bewegung erkannt worden und keine Dimmstufe aktiv ist.
 Die Haltezeit definiert die Zeit, bis das Licht abgedunkelt wird, wenn keine Bewegung mehr erkannt wird. In der Praxis haben sich Werte von etwa 1- 2 Minuten bewährt.

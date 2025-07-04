@@ -1,7 +1,9 @@
 # Erweiterungs-Schaltausgang
-> ℹ *information:*  
->
+![Erweiterungs-Schaltausgang](erweiterungs-schaltausgang.png)  
+
+># ℹ  
 >Der Erweiterungs- Schaltausgang ist ein zusätzlicher Ausgang zur Dimmschnittstelle welcher konfiguriert werden kann.
+
 ## Ein- und Aus- Modus  
 
 Der Erweiterungsschaltausgang kann mit den Modi Aus und Ein in einen dauerhaften Zustand versetzt werden. Das bedeutet, dass der Erweiterungsschaltausgang unabhängig von der Dimmschnittstelle, den Betriebszeiten oder der Umgebungshelligkeit dauerhaft ein- oder ausgeschaltet werden kann.

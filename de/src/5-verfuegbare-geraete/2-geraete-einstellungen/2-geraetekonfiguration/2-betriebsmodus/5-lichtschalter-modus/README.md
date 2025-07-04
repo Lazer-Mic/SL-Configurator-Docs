@@ -1,4 +1,5 @@
 # Lichtschalter Modus
+![Lichtschalter Modus](lichtschalter-modus.png)  
 
 Wenn ein Controller als Lichtschalter konfiguriert ist, kann trotzdem ein Zeit- Dimmprofil definiert werden, um gegebenenfalls eine angeschlossene Leuchte zu steuern. Es gibt jedoch einige Einschränkungen. Der Bewegungssensor- Eingang ist für den Lichtschalter reserviert, so dass er nur durch Bewegungen gesteuert werden kann, die von benachbarten Geräten erfasst werden und es sind maximal 6 Dimmstufen möglich.
 Auf der Seite Lichtschaltermodus werden die Einstellungen für die Lichtschalterfunktionen vorgenommen. Je nach Wahl des Typs (Schalter oder Taster) gibt es unterschiedliche Konfigurationsmöglichkeiten beim Konfigurieren der Lichtschalter.
@@ -17,8 +18,10 @@ Typ:
 Zeigt den aktuell eingestellten Lichtschaltertyp an.
 Es gibt 2 Optionen für den Betrieb als Taster:
 Umschaltmodus für Taster: Wenn dies aktiviert ist, wechselt der Status des Lichtschalters bei jeder Betätigung zwischen ein und aus. Beim ersten Druck schaltet der Lichtschalter ein, beim zweiten Druck schaltet der Lichtschalter aus, usw.
-> ℹ **Information:**  
-> info
+
+># ℹ   
+> let there be light... 
+
 Zeitlimit:
 Durch ein Zeitlimit wird festgelegt, wie lange der Lichtschaltbefehl aktiv sein kann. Nach Ablauf dieses Zeitlimits wird der Befehl automatisch abgeschaltet. Ist das Kontrollkästchen Zeit neu starten aktiviert, wird der Lichtschalter bei jeder Auslösung innerhalb des Zeitlimits neu gestartet.
 Gruppen:

@@ -1,4 +1,8 @@
 # Einstellungen laden/speichern
+![Einstellungen laden/speichern](einstellungen-laden-speichern.png)  
+
+># ℹ  
+>
 
 Benutzerdefinierte Einstellungen können gespeichert und jederzeit importiert werden. Am unteren linken Rand des Fensters befinden sich zwei Menüs für Einstellungen laden und Einstellungen speichern.
 Es sind mehrere Optionen verfügbar:

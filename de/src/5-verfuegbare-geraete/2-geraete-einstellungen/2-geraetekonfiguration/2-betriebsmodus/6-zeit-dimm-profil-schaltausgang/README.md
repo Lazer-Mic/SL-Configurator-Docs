@@ -1,4 +1,6 @@
-# Zeit Dimmprofil
+# Zeit Dimmprofil Schaltausgang
+![Zeit Dimmprofil Schaltausgang](zeit-dimm-profil-schaltausgang.png)  
+
 ># ℹ  
 >Auf der Registerkarte Zeit- Dimmprofil können die Helligkeit und die Betriebsdauer der Leuchte eingestellt werden. Eine grafische Darstellung veranschaulicht die Einstellungen und ermöglicht eine einfachere Bearbeitung der Konfiguration.
 
