@@ -1,4 +1,4 @@
-# Ein-Aus Modus
+# Immer Ein
 ![ein-aus-modus](ein-aus-modus-6.png)  
 
 **Immer ein (24 Stunden)**  
