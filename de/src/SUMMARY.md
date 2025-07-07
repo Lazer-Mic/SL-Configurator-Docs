@@ -38,7 +38,6 @@
             - [Zeitbasierendes Dimmprofil](./5-verfuegbare-geraete/2-geraete-einstellungen/2-geraetekonfiguration/2-betriebsmodus/1-zeit-dimmprofil/2-per-kanal/1-zeitbasierendes-dimmprofil/README.md)
             - [Bewegungsvolumen-basierendes Dimmprofil](./5-verfuegbare-geraete/2-geraete-einstellungen/2-geraetekonfiguration/2-betriebsmodus/1-zeit-dimmprofil/2-per-kanal/2-bewegungsvolumen-basierendes-dimmprofil/README.md)
         - [Bewegungserkennung](./5-verfuegbare-geraete/2-geraete-einstellungen/2-geraetekonfiguration/2-betriebsmodus/2-bewegungserkennung/README.md)
-          - [Bewegungsvolumenbasierendes Dimmprofil](./5-verfuegbare-geraete/2-geraete-einstellungen/2-geraetekonfiguration/2-betriebsmodus/2-bewegungserkennung/1-bewegungsvolumenbasierendes-dimmprofil/README.md)
         - [Astro-Uhr](./5-verfuegbare-geraete/2-geraete-einstellungen/2-geraetekonfiguration/2-betriebsmodus/3-astro-uhr/README.md)
         - [Erweiterungs-Schaltausgang](./5-verfuegbare-geraete/2-geraete-einstellungen/2-geraetekonfiguration/2-betriebsmodus/4-erweiterungs-schaltausgang/README.md)
         - [Lichtschalter Modus](./5-verfuegbare-geraete/2-geraete-einstellungen/2-geraetekonfiguration/2-betriebsmodus/5-lichtschalter-modus/README.md)

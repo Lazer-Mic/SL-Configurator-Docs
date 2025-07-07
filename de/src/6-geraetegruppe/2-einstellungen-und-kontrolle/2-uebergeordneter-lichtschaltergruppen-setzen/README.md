@@ -2,4 +2,4 @@
 ![Übergeordneter Lichtschaltergruppen Setzen](uebergeordneter-lichtschaltergruppen-setzen.png)  
 
 > # ℹ  
->Setzt dei übergeordneten Lichtschaltergruppen auf allen Geräten in der Gruppe.  
+>Setzt die übergeordneten Lichtschaltergruppen auf allen Geräten in der Gruppe.  
