@@ -1,5 +1,5 @@
-# Einstellungen und Kontrolle
-![Einstellungen und Kontrolle](einstellungen-und-kontrolle.png)  
+# Firmware aktualisieren
+![Firmware aktualisieren](firmware-aktualisieren.png)  
 
 > # ℹ  
->Gruppeneinstellungen werden automatisch auf alle Leuchten innerhalb der Gruppe übertragen.  
+>Aktualisiert die Firmware auf allen Geräten in der Gruppe.  

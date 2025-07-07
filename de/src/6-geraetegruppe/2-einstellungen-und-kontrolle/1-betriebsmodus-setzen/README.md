@@ -1,5 +1,5 @@
-# Einstellungen und Kontrolle
-![Einstellungen und Kontrolle](einstellungen-und-kontrolle.png)  
+# Betriebsmodus Setzen
+![Betriebsmodus Setzen](betriebsmodus-setzen.png)  
 
 > # ℹ  
->Gruppeneinstellungen werden automatisch auf alle Leuchten innerhalb der Gruppe übertragen.  
+>Setzt den Betriebsmodus auf allen Geräten in der Gruppe.  

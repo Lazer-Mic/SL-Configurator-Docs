@@ -1,5 +1,5 @@
-# Einstellungen und Kontrolle
-![Einstellungen und Kontrolle](einstellungen-und-kontrolle.png)  
+# Gerätekonfiguration Setzen
+![Gerätekonfiguration Setzen](geraetekonfiguration-setzen.png)  
 
 > # ℹ  
->Gruppeneinstellungen werden automatisch auf alle Leuchten innerhalb der Gruppe übertragen.  
+>Lädt eine Gerätekonfiguration und aktualisiert alle Geräte in der Gruppe.  

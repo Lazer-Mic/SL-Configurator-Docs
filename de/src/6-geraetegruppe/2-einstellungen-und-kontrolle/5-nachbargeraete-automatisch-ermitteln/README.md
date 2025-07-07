@@ -1,5 +1,5 @@
-# Einstellungen und Kontrolle
-![Einstellungen und Kontrolle](einstellungen-und-kontrolle.png)  
+# Nachbargeräte automatisch ermitteln
+![Nachbargeräte automatisch ermitteln](nachbargeraete-automatisch-ermitteln.png)  
 
 > # ℹ  
->Gruppeneinstellungen werden automatisch auf alle Leuchten innerhalb der Gruppe übertragen.  
+>Ermittlet und setzt die Nachbargeräte automatisch basierend auf den Positionen der Leuchten.  

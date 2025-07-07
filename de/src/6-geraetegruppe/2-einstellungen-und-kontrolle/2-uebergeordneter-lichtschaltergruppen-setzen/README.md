@@ -1,5 +1,5 @@
-# Einstellungen und Kontrolle
-![Einstellungen und Kontrolle](einstellungen-und-kontrolle.png)  
+# Übergeordneter Lichtschaltergruppen Setzen
+![Übergeordneter Lichtschaltergruppen Setzen](uebergeordneter-lichtschaltergruppen-setzen.png)  
 
 > # ℹ  
->Gruppeneinstellungen werden automatisch auf alle Leuchten innerhalb der Gruppe übertragen.  
+>Setzt dei übergeordneten Lichtschaltergruppen auf allen Geräten in der Gruppe.  
