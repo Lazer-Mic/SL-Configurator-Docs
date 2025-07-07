@@ -1,5 +1,5 @@
 # Globale Einstellungen
+![Globale Einstellungen](globale-einstellungen.png)  
 
-4 Kanäle für gleichzeitige Betriebsmodi
-
-Kalender
+> # ℹ  
+>4 Kanäle für gleichzeitige Betriebsmodi
