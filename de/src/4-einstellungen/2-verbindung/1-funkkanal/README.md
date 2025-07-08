@@ -1,7 +1,4 @@
-# Funkkanal  
-># ℹ
-> Wenn der Funkkanal des Gerätes bekannt ist, kann er direkt eingestellt werden. Ist der Funkkanal nicht bekannt, können mit der Auswahl "Automatisch" alle Funkkanäle durchsucht werden. Findet der SL- Configurator ein Gerät, bricht er die Suche ab und bleibt bei diesem Kanal stehen. 
-
+# Funkkanal
 ![funkkanal](funkkanal-1.png)  
 *Der Funkkanal kann im SL- Configurator unter* **Einstellungen > Verbindung > Verbindungseinstellungen** *geändert werden.*  
 
@@ -14,6 +11,7 @@
 Standard: Kanal 0  
 
 ># ℹ
->Um mit den Leuchten kommunizieren zu können, muss der Funkkanal der Leuchte und vom Configurator bzw. USB- Stick übereinstimmen.  
+>Um mit den Leuchten kommunizieren zu können, muss der Funkkanal der Leuchte und vom Configurator bzw. USB- Stick übereinstimmen. Die gefundenen Leuchten werden links unter „Verfügbare Geräte“ automatisch aufgeführt.  
 
-Die gefundenen Leuchten werden links unter „Verfügbare Geräte“ automatisch aufgeführt.
+># ℹ
+>Wenn der Funkkanal des Gerätes bekannt ist, kann er direkt eingestellt werden. Ist der Funkkanal nicht bekannt, können mit der Auswahl "Automatisch" alle Funkkanäle durchsucht werden. Findet der SL- Configurator ein Gerät, bricht er die Suche ab und bleibt bei diesem Kanal stehen.
