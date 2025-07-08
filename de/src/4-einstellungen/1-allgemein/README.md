@@ -1,5 +1,6 @@
 # Allgemein
-![Einstellungen öffnen](allgemein.png)
+![Einstellungen öffnen](allgemein.png)  
+
 **Sprache**  
 
 Setzt die Sprache, in der die Anwendung angezeigt wird (Benutzeroberfläche).
