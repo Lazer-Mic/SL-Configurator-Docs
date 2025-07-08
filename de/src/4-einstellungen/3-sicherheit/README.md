@@ -1,8 +1,8 @@
 # Sicherheit
-># ℹ  
->Um mit den Leuchten kommunizieren zu können, muss das Systempasswort (PIN) der Leuchte und das Systempasswort (PIN) welches in SL-Configurator gesetzt ist **übereinstimmen**. Leuchten welche mit einem anderen Systempasswort (PIN) geschützt sind werden in der Geräteliste bewusst nicht angezeigt.  
+># ℹ
+>Um mit den Leuchten kommunizieren zu können, muss das Systempasswort (PIN) der Leuchte und das Systempasswort (PIN) welches in SL-Configurator gesetzt ist **übereinstimmen**. Leuchten welche mit einem anderen Systempasswort (PIN) geschützt sind werden in der Geräteliste bewusst nicht angezeigt.
 
-![Sicherheit](sicherheit.png)  
+![Sicherheit](sicherheit.png)
 *Hier haben Sie die Möglichkeiten den PIN zu erstellen, zu löschen und den Migrationsassistent zu starten um das gesetzte Systempasswort an die Controller zu verteilen.*  
 
 **Systempasswort (PIN)**
