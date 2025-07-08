@@ -1,15 +1,14 @@
 # Allgemein
 ![Einstellungen öffnen](allgemein.png)  
 
-**Sprache**  
-
-Setzt die Sprache, in der die Anwendung angezeigt wird (Benutzeroberfläche).
+## Sprache
+### Setzt die Sprache, in der die Anwendung angezeigt wird (Benutzeroberfläche).
 
 ---
 
-**Geräteliste**  
+## Geräteliste
 
-Wählen Sie, welche Gerätegruppen Sie in der Geräteliste anzeigen möchten (Netzwerkscan – Verfügbare Geräte).
+### Wählen Sie, welche Gerätegruppen Sie in der Geräteliste anzeigen möchten (Netzwerkscan – Verfügbare Geräte).
 
 ---
 
