@@ -1,6 +1,5 @@
 # Funkkanal  
 ># ℹ
-> 
 > Wenn der Funkkanal des Gerätes bekannt ist, kann er direkt eingestellt werden. Ist der Funkkanal nicht bekannt, können mit der Auswahl "Automatisch" alle Funkkanäle durchsucht werden. Findet der SL- Configurator ein Gerät, bricht er die Suche ab und bleibt bei diesem Kanal stehen. 
 
 ![funkkanal](funkkanal-1.png)  
