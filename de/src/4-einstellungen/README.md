@@ -5,4 +5,4 @@
 ## Hauptfenster SL-Configurator Einstellungen
 
 ![Einstellungen öffnen](einstellungen-2.png)  
-*Hier finden Sie die fünf Kategorien um die wichtigsten Einstellungen vorzunehmen.* 
+*Hier finden Sie die fünf Kategorien um die wichtigsten Einstellungen vorzunehmen.*
