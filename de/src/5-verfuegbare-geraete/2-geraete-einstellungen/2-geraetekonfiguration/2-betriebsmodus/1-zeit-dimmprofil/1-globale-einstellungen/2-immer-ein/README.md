@@ -1,5 +1,5 @@
-# Immer Ein
-![ein-aus-modus](ein-aus-modus-6.png)  
+# Immer Ein (24h / Ringsteuerung)
+![Immer Ein (24h / Ringsteuerung)](immer-ein-1.png)  
 
 **Immer ein (24 Stunden)**  
 

@@ -22,64 +22,122 @@
             top: 10px;
             left: 10px;
             background: rgba(255, 255, 255, 0.95);
-            padding: 15px;
+            padding: 12px;
             border-radius: 8px;
             box-shadow: 0 2px 8px rgba(0,0,0,0.2);
-            max-width: 300px;
             z-index: 1000;
             backdrop-filter: blur(5px);
+            transition: transform 0.3s ease;
+            min-width: 450px;
         }
-        .stats {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
-            gap: 8px;
-            margin-bottom: 15px;
+        .info-panel.collapsed {
+            transform: translateX(-460px);
         }
-        .stat-item {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            padding: 8px;
-            border-radius: 6px;
-            text-align: center;
+        .toggle-button {
+            position: fixed;
+            top: 15px;
+            left: 470px;
+            background: transparent;
+            color: #666;
+            border: 1px solid #ddd;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            cursor: pointer;
+            z-index: 1001;
+            font-size: 16px;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
-        .stat-number {
-            font-size: 18px;
-            font-weight: bold;
-            margin-bottom: 2px;
+        .toggle-button.collapsed {
+            left: 15px;
         }
-        .stat-label {
-            font-size: 10px;
-            opacity: 0.9;
-        }
-        .controls {
+        .toggle-button:hover {
             background: #f8f9fa;
-            padding: 10px;
-            border-radius: 6px;
+            color: #333;
+            border-color: #bbb;
+        }
+        .panel-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
             margin-bottom: 10px;
         }
-        .control-button {
-            background: #007bff;
-            color: white;
-            border: none;
-            padding: 6px 12px;
+        .panel-title {
+            margin: 0;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .panel-subtitle {
+            margin: 0;
+            font-size: 11px;
+            color: #666;
+        }
+        .stats {
+            display: flex;
+            gap: 6px;
+            margin-bottom: 10px;
+        }
+        .stat-item {
+            background: transparent;
+            color: #666;
+            border: 1px solid #ddd;
+            padding: 6px 8px;
             border-radius: 4px;
-            margin-right: 8px;
+            text-align: center;
+            flex: 1;
+            min-width: 60px;
+        }
+        .stat-number {
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: 1px;
+            color: #333;
+        }
+        .stat-label {
+            font-size: 9px;
+            opacity: 0.7;
+            line-height: 1;
+        }
+        .controls {
+            display: flex;
+            gap: 6px;
+        }
+        .control-button {
+            background: transparent;
+            color: #666;
+            border: 1px solid #ddd;
+            padding: 6px 10px;
+            border-radius: 4px;
             cursor: pointer;
-            font-size: 12px;
+            font-size: 11px;
+            flex: 1;
+            white-space: nowrap;
+            transition: all 0.2s ease;
         }
         .control-button:hover {
-            background: #0056b3;
+            background: #f8f9fa;
+            color: #333;
+            border-color: #bbb;
         }
     </style>
 </head>
 <body>
-    <div class="info-panel">
-        <h2 style="margin: 0 0 10px 0; font-size: 16px;">SL-Configurator Folders</h2>
-        <p style="margin: 0 0 10px 0; font-size: 12px;">Complete directory hierarchy (178 folders)</p>
+    <button class="toggle-button" onclick="togglePanel()">‹</button>
+    
+    <div class="info-panel" id="infoPanel">
+        <div class="panel-header">
+            <div>
+                <h2 class="panel-title">SL-Configurator Folders</h2>
+                <p class="panel-subtitle">Complete directory hierarchy (179 folders)</p>
+            </div>
+        </div>
         
         <div class="stats">
             <div class="stat-item">
-                <div class="stat-number">178</div>
+                <div class="stat-number">179</div>
                 <div class="stat-label">Total Folders</div>
             </div>
             <div class="stat-item">
@@ -110,7 +168,7 @@
         
         var data = {
             name: 'Projects/1',
-            value: '178 directories',
+            value: '179 directories',
             itemStyle: { color: '#2c5282' },
             children: [
                 {
@@ -120,7 +178,7 @@
                     children: [
                         {
                             name: 'src',
-                            value: 'Source documentation (85 folders)',
+                            value: 'Source documentation (87 folders)',
                             itemStyle: { color: '#48bb78' },
                             children: [
                                 {
@@ -402,14 +460,7 @@
                                                 {
                                                     name: '6-sensoren',
                                                     value: 'Sensors',
-                                                    itemStyle: { color: '#e6fffa' },
-                                                    children: [
-                                                        {
-                                                            name: '1-konfiguration-des-radarsensors',
-                                                            value: 'Radar sensor config',
-                                                            itemStyle: { color: '#f0fff4' }
-                                                        }
-                                                    ]
+                                                    itemStyle: { color: '#e6fffa' }
                                                 },
                                                 {
                                                     name: '7-neigungssensor',
@@ -429,7 +480,24 @@
                                                 {
                                                     name: '10-radar-bewegungsmelder',
                                                     value: 'Radar motion detector',
-                                                    itemStyle: { color: '#e6fffa' }
+                                                    itemStyle: { color: '#e6fffa' },
+                                                    children: [
+                                                        {
+                                                            name: '1-radar-bewegungsmelder-zuruecksetzen',
+                                                            value: 'Reset radar motion detector',
+                                                            itemStyle: { color: '#f0fff4' }
+                                                        },
+                                                        {
+                                                            name: '2-radar-bewegungssensor-konfigurieren',
+                                                            value: 'Configure radar motion sensor',
+                                                            itemStyle: { color: '#f0fff4' }
+                                                        },
+                                                        {
+                                                            name: '3-radarsensor-firmware-aktualisieren',
+                                                            value: 'Update radar sensor firmware',
+                                                            itemStyle: { color: '#f0fff4' }
+                                                        }
+                                                    ]
                                                 },
                                                 {
                                                     name: '11-geraeteinformationen',
@@ -577,7 +645,7 @@
                         },
                         {
                             name: 'book',
-                            value: 'Generated HTML (91 folders, mirror of src)',
+                            value: 'Generated HTML (90 folders, mirror of src)',
                             itemStyle: { color: '#ed8936' },
                             children: [
                                 {
@@ -622,7 +690,7 @@
         var option = {
             title: {
                 text: 'SL-Configurator Folder Hierarchy',
-                subtext: 'Complete directory structure (178 folders) - Folders only, no files',
+                subtext: 'Complete directory structure (179 folders) - Folders only, no files',
                 left: 'center',
                 textStyle: {
                     fontSize: 20,
@@ -706,6 +774,22 @@
         window.resetView = function() {
             option.series[0].initialTreeDepth = 3;
             myChart.setOption(option);
+        };
+        
+        // Toggle panel function
+        window.togglePanel = function() {
+            const panel = document.getElementById('infoPanel');
+            const button = document.querySelector('.toggle-button');
+            
+            if (panel.classList.contains('collapsed')) {
+                panel.classList.remove('collapsed');
+                button.classList.remove('collapsed');
+                button.textContent = '‹';
+            } else {
+                panel.classList.add('collapsed');
+                button.classList.add('collapsed');
+                button.textContent = '›';
+            }
         };
         
         // Responsive resize
