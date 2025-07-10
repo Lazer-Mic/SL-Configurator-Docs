@@ -1,7 +1,7 @@
 # Karte
 ![Einstellungen Karte](karte.png)  
 
-**Toggle** Karte automatisch auf das ausgewählte Gerät zentrieren.
+**Toggle** Karte automatisch auf das ausgewählte Gerät zentrieren
 
 ---
 
@@ -14,4 +14,4 @@ Benutzersymbol anpassen
 ---
 
 Kartendaten für offlinegebrauch herunterladen
-Kartendaten werden von Wikimedia Maps zur Verfügung gestellt.
+(Kartendaten werden von Wikimedia Maps zur Verfügung gestellt)
