@@ -8,16 +8,18 @@ Wählen Sie diesen Modus, um den Kanal kontinuierlich für 24 Stunden mit Ringst
 
 ## Hauptbereiche
 
-1. **Zeit-Dimmprofil**
-   - Aktiver Bereich: Dieser Bereich ist aktuell ausgewählt und ermöglicht die Konfiguration zeitbasierter Dimmprofile für die Beleuchtungssteuerung.
+### 1. Zeit-Dimmprofil
 
-2. **Tab-Navigation**
-   - Globale Einstellungen: Allgemeine Einstellungen für alle Kanäle.
-   - 1. Kanal: Spezifische Einstellungen für den ersten Kanal werden angezeigt.
+- Dieser Bereich ist aktuell aktiv, wie durch das hervorgehobene Symbol auf der linken Seite angezeigt
+- Wird verwendet, um zeitbasierte Dimmprofile für jeden Kanal einzurichten
+
+### 2. Globale Einstellungen
+
+- Der Hauptbereich zeigt globale Betriebsmodus-Einstellungen für alle Kanäle an
 
 ## Betriebsmodus-Optionen
 
-Für jeden der vier Kanäle können Sie einen Betriebsmodus aus einem Dropdown-Menü auswählen:
+Für jeden der vier Kanäle (1. Kanal, 2. Kanal, 3. Kanal, 4. Kanal) können Sie einen Betriebsmodus aus einem Dropdown-Menü auswählen. Die verfügbaren Einstellungen sind:
 
 - **Immer ein (24 h / Ringsteuerung)**: Kanal ist immer eingeschaltet (24 Stunden / Ringsteuerung)
 - **Inaktiv**: Der Kanal ist inaktiv (ausgeschaltet oder nicht in Gebrauch)
@@ -36,16 +38,16 @@ Die Leuchte ist immer betriebsbereit und **leuchtet**, wenn Sie an eine Stromver
 
 ## Seitennavigation
 
-- **Zeit-Dimmprofil**: Zeitbasiertes Dimmprofil (aktuell aktiv).
-- **Bewegungserkennung**: Bewegungserkennungseinstellungen (inaktiv).
-- **Astro Uhr**: Astronomische Uhreneinstellungen (inaktiv).
-- **Bewegungsvoll. Dimmprofil**: Bewegungsgesteuertes Dimmprofil (inaktiv).
-- **Kalender**: Kalenderbasierte Zeitplanung.
+- **Zeit-Dimmprofil**: Zeitbasiertes Dimmprofil (aktiv)
+- **Bewegungserkennung**: Bewegungserkennungseinstellungen (ausgegraut/inaktiv)
+- **Astro Uhr**: Astronomische Uhreneinstellungen (ausgegraut/inaktiv)
+- **Bewegungsvoll. Dimmprofil**: Bewegungsgesteuertes Dimmprofil (ausgegraut/inaktiv)
+- **Kalender**: Kalenderbasierte Zeitplanung
 
 ## Untere Bedienelemente
 
-- **Einstellungen laden**: Konfiguration aus einer Datei oder einem Profil laden.
-- **Einstellungen speichern**: Aktuelle Konfiguration speichern.
-- **OK**: Alle Änderungen bestätigen und anwenden.
-- **Abbrechen**: Abbrechen und Fenster ohne Speichern schließen.
-- **Übernehmen**: Änderungen anwenden ohne das Fenster zu schließen.
+- **Einstellungen laden**: Einstellungen aus einer Datei oder einem Profil laden
+- **Einstellungen speichern**: Aktuelle Einstellungen in einer Datei oder einem Profil speichern
+- **OK**: Alle Änderungen bestätigen und anwenden
+- **Abbrechen**: Abbrechen und Fenster ohne Speichern der Änderungen schließen
+- **Übernehmen**: Änderungen anwenden ohne das Fenster zu schließen
