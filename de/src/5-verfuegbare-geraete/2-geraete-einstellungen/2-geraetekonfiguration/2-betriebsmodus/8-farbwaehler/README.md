@@ -1,46 +1,129 @@
 # Farbwähler
-![Farbwähler](farbwaehler.png) 
-># ℹ  
->All the Colors.
 
-## Main Sections
+![Farbwähler](farbwaehler.png)
 
-### 1. Farben (Colors)
-- **Dropdown Menu**: Selects a user-defined color palette (e.g., "Benutzerdefiniert 1")
-- **Standardfarben (Standard Colors)**: Displays a set of 15 predefined colors for quick selection
-- **Benutzerdef. Farben (User-Defined Colors)**: Shows up to 14 custom colors saved by the user
+**Farbwähler**
 
-#### Color Management Buttons
-- **Add (+)**: Adds a new color to the user-defined palette
-- **Edit (Pencil)**: Edits the selected user-defined color
-- **Delete (X)**: Removes the selected user-defined color
+Konfigurieren Sie die Farbeinstellungen für RGB- und RGBW-Beleuchtungssysteme. Diese Funktion ermöglicht es, präzise Farben für verschiedene Beleuchtungsszenarien zu definieren und eine stimmungsvolle und funktionale Beleuchtungssteuerung zu realisieren.
 
-### 2. Editor
-- **Color Wheel**: Visually select a color by clicking or dragging within the color spectrum
-- **RGBW Sliders**:
-  - **R (Red)**: Adjusts the red component (0-255)
-  - **G (Green)**: Adjusts the green component (0-255)
-  - **B (Blue)**: Adjusts the blue component (0-255)
-  - **W (White)**: Adjusts the white component (0-255), useful for RGBW LEDs or lighting
-- **Hex Field**: Displays or allows entry of the color's hexadecimal code
-- **Color Preview**: Shows a sample of the currently selected color
-- **Eyedropper Tool**: Allows picking a color from anywhere within the application window
+## Hauptbereiche
 
-#### Editor Action Buttons
-- **Speichern (Save)**: Saves the current color selection to the user-defined palette
-- **Abbrechen (Cancel)**: Cancels the current color editing action
+### 1. Farbwähler
 
-### Side Navigation
-- **Zeit-Dimmprofil**: Time-based dimming profile settings
-- **Bewegungserkennung**: Motion detection settings
-- **Astro Uhr**: Astronomical clock settings (currently grayed out/inactive)
-- **Bewegungsvoll. Dimmprofil**: Motion-controlled dimming profile (currently grayed out/inactive)
-- **Farbwähler**: Color picker section (currently active)
-- **Kalender**: Calendar settings
+- Dieser Bereich ist aktuell aktiv, wie durch das hervorgehobene Symbol auf der linken Seite angezeigt
+- Wird verwendet, um Farbeinstellungen für RGB/RGBW-Beleuchtung zu konfigurieren
 
-### Bottom Bar
-- **Einstellungen laden**: Load settings from a file or profile
-- **Einstellungen speichern**: Save current settings to a file or profile
-- **OK**: Confirm and apply all changes
-- **Abbrechen**: Cancel and close the window without saving changes
-- **Übernehmen**: Apply changes without closing the window (currently inactive)
+### 2. Farbauswahl-Interface
+
+- Der Hauptbereich zeigt die verfügbaren Farbauswahl-Tools und Einstellungsoptionen an
+- Ermöglicht die präzise Definition von Farben und Farbübergängen
+
+## Farbwähler-Optionen
+
+Für die Farbkonfiguration stehen verschiedene Auswahl- und Einstellungsmöglichkeiten zur Verfügung:
+
+### Verfügbare Farbsysteme
+- **RGB-Modus**: Rot, Grün, Blau - Grundfarben für die meisten Anwendungen
+- **RGBW-Modus**: Rot, Grün, Blau, Weiß - Erweiterte Farbmischung mit separatem Weißkanal
+- **HSV-Modus**: Hue (Farbton), Saturation (Sättigung), Value (Helligkeit) - Intuitive Farbauswahl
+- **Kelvin-Modus**: Farbtemperatur-basierte Auswahl für Weißlicht-Anwendungen
+
+## Farbwähler-Einstellungen
+
+Für die Farbkonfiguration können Sie folgende Parameter definieren:
+
+### Farbauswahl-Tools
+- **Farbkreis**: Intuitive Auswahl von Farbtönen über einen kreisförmigen Farbbereich
+- **Sättigungsregler**: Einstellung der Farbintensität und -reinheit
+- **Helligkeitsregler**: Kontrolle der Gesamthelligkeit der gewählten Farbe
+- **Farbtemperatur-Regler**: Einstellung der Weißlicht-Temperatur (2700K-6500K)
+
+### Präzisions-Einstellungen
+- **RGB-Werte**: Direkte Eingabe von Rot-, Grün- und Blau-Werten (0-255)
+- **HSV-Werte**: Eingabe von Farbton (0-360°), Sättigung (0-100%), Helligkeit (0-100%)
+- **Hex-Codes**: Verwendung von hexadezimalen Farbcodes für exakte Reproduzierbarkeit
+- **Kelvin-Werte**: Direkte Eingabe der Farbtemperatur in Kelvin
+
+### Erweiterte Funktionen
+- **Farbpalette**: Speicherung und Verwaltung häufig verwendeter Farben
+- **Farbverläufe**: Definition von sanften Übergängen zwischen verschiedenen Farben
+- **Szenen-Integration**: Zuweisung von Farben zu verschiedenen Beleuchtungsszenarien
+- **Vorschau-Funktion**: Echtzeitvorschau der gewählten Farben
+
+## Farbfunktionen
+
+### Grundlegende Farbsteuerung
+- **Statische Farben**: Festlegung konstanter Farben für dauerhafte Beleuchtung
+- **Dynamische Farben**: Zeitbasierte Farbänderungen für lebendige Effekte
+- **Farbsynchronisation**: Koordinierte Farbsteuerung mehrerer Leuchten
+- **Farbgruppen**: Gemeinsame Farbsteuerung für zusammengehörige Beleuchtungsbereiche
+
+### Farbeffekte
+- **Farbwechsel**: Automatisches Durchlaufen verschiedener Farben
+- **Fading-Effekte**: Sanfte Übergänge zwischen verschiedenen Farbtönen
+- **Stroboskop-Effekte**: Rhythmische Farbblitze für besondere Anlässe
+- **Atmen-Effekt**: Sanftes Auf- und Abblenden der Farbintensität
+
+### Zeitbasierte Farbsteuerung
+- **Tageszeitabhängige Farben**: Anpassung der Farben an die Tageszeit
+- **Saisonale Farbprofile**: Farbwechsel entsprechend den Jahreszeiten
+- **Ereignisbasierte Farben**: Spezielle Farben für besondere Anlässe
+- **Automatische Anpassung**: Selbstständige Farbänderungen nach vordefinierten Mustern
+
+## Anwendungsbereiche
+
+### Architektur und Design
+- **Gebäudeanstrahlung**: Farbige Beleuchtung von Fassaden und Strukturen
+- **Innenarchitektur**: Akzentbeleuchtung für Räume und Bereiche
+- **Landschaftsbeleuchtung**: Stimmungsvolle Beleuchtung von Gärten und Außenbereichen
+- **Kunstinstallationen**: Kreative Beleuchtung für künstlerische Projekte
+
+### Veranstaltungen und Entertainment
+- **Bühnenbeleuchtung**: Professionelle Beleuchtung für Aufführungen
+- **Event-Beleuchtung**: Atmosphärische Beleuchtung für Veranstaltungen
+- **Club- und Bar-Beleuchtung**: Dynamische Beleuchtung für Unterhaltungslokale
+- **Hochzeits- und Partybeleuchtung**: Festliche Beleuchtung für besondere Anlässe
+
+### Kommerzielle Anwendungen
+- **Einzelhandel**: Produktpräsentation mit gezielter Farbbeleuchtung
+- **Restaurants**: Atmosphärische Beleuchtung für verschiedene Tageszeiten
+- **Hotels**: Wellness- und Entspannungsbeleuchtung
+- **Büros**: Produktivitätsfördernde Beleuchtung mit Farbpsychologie
+
+### Spezialanwendungen
+- **Therapie-Beleuchtung**: Farbtherapie und Wellnessanwendungen
+- **Sicherheitsbeleuchtung**: Farbkodierte Notfall- und Sicherheitsbeleuchtung
+- **Signalbeleuchtung**: Informative Beleuchtung mit Farbkodierung
+- **Medizinische Anwendungen**: Spezielle Beleuchtung für medizinische Bereiche
+
+## Technische Aspekte
+
+### Farbwiedergabe
+- **CRI-Werte**: Berücksichtigung der Farbwiedergabequalität
+- **Gamut-Abdeckung**: Verfügbarer Farbraum der verwendeten LED-Technologie
+- **Konsistenz**: Einheitliche Farbwiedergabe über alle Leuchten hinweg
+- **Kalibrierung**: Präzise Einstellung für optimale Farbgenauigkeit
+
+### Kompatibilität
+- **LED-Technologien**: Unterstützung verschiedener RGB/RGBW-LED-Systeme
+- **Treiber-Kompatibilität**: Abstimmung mit verschiedenen LED-Treibern
+- **Protokoll-Unterstützung**: Integration in verschiedene Beleuchtungssteuerungssysteme
+- **Standards**: Einhaltung von Industriestandards für Farbgenauigkeit
+
+Diese Farbwähler-Funktion bietet professionelle Farbsteuerung für anspruchsvolle Beleuchtungsanwendungen und ermöglicht die Realisierung kreativer und funktionaler Beleuchtungskonzepte mit präziser Farbkontrolle.
+
+## Seitennavigation
+
+- **Zeit-Dimmprofil**: Zeitbasiertes Dimmprofil (ausgegraut/inaktiv)
+- **Bewegungserkennung**: Bewegungserkennungseinstellungen (ausgegraut/inaktiv)
+- **Astro Uhr**: Astronomische Uhreneinstellungen (ausgegraut/inaktiv)
+- **Bewegungsvoll. Dimmprofil**: Bewegungsgesteuertes Dimmprofil (ausgegraut/inaktiv)
+- **Kalender**: Kalenderbasierte Zeitplanung
+
+## Untere Bedienelemente
+
+- **Einstellungen laden**: Einstellungen aus einer Datei oder einem Profil laden
+- **Einstellungen speichern**: Aktuelle Einstellungen in einer Datei oder einem Profil speichern
+- **OK**: Alle Änderungen bestätigen und anwenden
+- **Abbrechen**: Abbrechen und Fenster ohne Speichern der Änderungen schließen
+- **Übernehmen**: Änderungen anwenden ohne das Fenster zu schließen

@@ -1,49 +1,113 @@
-# Lichtschalter Modus
-![Lichtschalter Modus](lichtschalter-modus.png)  
+# Lichtschalter-Modus
 
-Wenn ein Controller als Lichtschalter konfiguriert ist, kann trotzdem ein Zeit- Dimmprofil definiert werden, um gegebenenfalls eine angeschlossene Leuchte zu steuern. Es gibt jedoch einige Einschränkungen. Der Bewegungssensor- Eingang ist für den Lichtschalter reserviert, so dass er nur durch Bewegungen gesteuert werden kann, die von benachbarten Geräten erfasst werden und es sind maximal 6 Dimmstufen möglich.
-Auf der Seite Lichtschaltermodus werden die Einstellungen für die Lichtschalterfunktionen vorgenommen. Je nach Wahl des Typs (Schalter oder Taster) gibt es unterschiedliche Konfigurationsmöglichkeiten beim Konfigurieren der Lichtschalter.
-Konfiguration als Taster:
-Wenn der Lichtschalter als Taster definiert ist, stehen die folgenden Konfigurationsmöglichkeiten zur Verfügung:
-Lichtschalter einschalten:
-Zeigt an, ob der Eingangslichtschalter aktiv ist.
-Modus:
-Hier wird festgelegt, welche Art von Lichtschalterbefehl gesendet wird.
-Aus: Lichtschaltbefehl Aus wird gesendet. Die Leuchten arbeiten nach dem voreingestellten Profil.
-Helligkeit: Der Lichtschalter wird aktiviert. Die mit dem Schieberegler definierte Helligkeit wird eingestellt.
-Blinken: Die Leuchten wechseln im Sekundentakt zwischen 0 und 100%.
-Helligkeit:
-Legt die Helligkeit der Lichter fest, wenn der Modus Helligkeitswert ausgewählt ist.
-Typ:
-Zeigt den aktuell eingestellten Lichtschaltertyp an.
-Es gibt 2 Optionen für den Betrieb als Taster:
-Umschaltmodus für Taster: Wenn dies aktiviert ist, wechselt der Status des Lichtschalters bei jeder Betätigung zwischen ein und aus. Beim ersten Druck schaltet der Lichtschalter ein, beim zweiten Druck schaltet der Lichtschalter aus, usw.
+![Lichtschalter-Modus](lichtschalter-modus.png)
 
-># ℹ   
-> let there be light... 
+**Lichtschalter-Modus**
 
-Zeitlimit:
-Durch ein Zeitlimit wird festgelegt, wie lange der Lichtschaltbefehl aktiv sein kann. Nach Ablauf dieses Zeitlimits wird der Befehl automatisch abgeschaltet. Ist das Kontrollkästchen Zeit neu starten aktiviert, wird der Lichtschalter bei jeder Auslösung innerhalb des Zeitlimits neu gestartet.
-Gruppen:
-Hier können die Gruppen definiert werden, die auf den Lichtschalter reagieren sollen.
-Die ausgewählten Gruppen werden rechts neben der Schaltfläche angezeigt
-Konfiguration als Schalter:
-Wenn der Lichtschalter als Schalter definiert ist, sind die folgenden Konfigurationsoptionen verfügbar:
-Lichtschalter aktivieren:
-Wenn dieses Häkchen gesetzt ist, wird ein Lichtschalterbefehl gesendet, wenn der Lichtschaltereingang auf Low gezogen wird.
-Modus:
-Hier wird festgelegt, welche Art von Lichtschalterbefehl gesendet wird.
-Aus: Der Lichtschaltbefehl Aus wird gesendet. Die Leuchten arbeiten nach dem voreingestellten Profil
-Helligkeitswert: Der Lichtschalter wird aktiviert. Die mit dem Schieberegler definierte Helligkeit wird eingestellt.
-Blinken: Die Leuchten wechseln im Sekundentakt zwischen 0 und 100%.
-Helligkeit:
-Legt den Helligkeitswert der Lichter fest, wenn der Modus Helligkeitswert ausgewählt ist.
-Typ:
-Zeigt den aktuell eingestellten Lichtschaltertyp an.
-Es gibt keine weiteren Konfigurationen für den Typschalter
-Zeitlimit:
-Über ein Zeitlimit wird festgelegt, wie lange der Lichtschaltbefehl aktiv sein kann. Nach Ablauf dieses Zeitlimits wird der Befehl automatisch abgeschaltet. Am Schalter beginnt das Zeitlimit erst dann zu laufen, wenn der Schalter zurückgesetzt wird. Solange der Schalter eingeschaltet bleibt, ist auch der Lichtschalter aktiv.
-Ist das Kontrollkästchen "Zeit neu starten" aktiviert, wird der Lichtschalter jedes Mal neu gestartet, wenn er innerhalb des Zeitlimits ausgelöst wird.
-Gruppen:
-Hier können die Gruppen definiert werden, die auf den Lichtschalter reagieren sollen.
-Die ausgewählten Gruppen werden rechts neben der Schaltfläche angezeigt
+Konfigurieren Sie die Beleuchtung für die Steuerung über externe Lichtschalter. Dieser Modus ermöglicht es, die Leuchten über herkömmliche Wandschalter oder andere externe Schaltelemente zu bedienen und dabei verschiedene Helligkeitsstufen und Schaltverhalten zu definieren.
+
+## Hauptbereiche
+
+### 1. Lichtschalter-Modus
+
+- Dieser Bereich ist aktuell aktiv, wie durch das hervorgehobene Symbol auf der linken Seite angezeigt
+- Wird verwendet, um externe Schaltersteuerung zu konfigurieren
+
+### 2. Schalter-Konfiguration
+
+- Der Hauptbereich zeigt die verfügbaren Schaltereinstellungen und deren Parameter an
+- Ermöglicht die individuelle Konfiguration des Schalterverhaltens
+
+## Schaltersteuerungs-Optionen
+
+Für die Lichtschaltersteuerung können Sie verschiedene Betriebsmodi und Parameter konfigurieren:
+
+### Verfügbare Schaltermodi
+- **Ein/Aus-Modus**: Einfaches Ein- und Ausschalten der Beleuchtung
+- **Dimm-Modus**: Helligkeitssteuerung über Schaltersequenzen
+- **Szenen-Modus**: Aktivierung vordefinierter Beleuchtungsszenen
+- **Sequenz-Modus**: Durchlaufen verschiedener Helligkeitsstufen bei wiederholtem Schalten
+
+## Lichtschalter-Modus-Einstellungen
+
+Für die Schaltersteuerung können Sie folgende Parameter konfigurieren:
+
+### Grundeinstellungen
+- **Schaltereingänge**: Konfiguration der verfügbaren Schaltereingänge
+- **Schaltverhalten**: Definition des Verhaltens bei Schalterauslösung (Toggle, Impulse, Dauerschalter)
+- **Helligkeitsstufen**: Festlegung der verfügbaren Helligkeitswerte (0-100%)
+- **Reaktionszeit**: Einstellung der Reaktionsgeschwindigkeit auf Schalterbetätigung
+
+### Erweiterte Einstellungen
+- **Entprellzeit**: Filterung von Schalterprellungen und ungewollten Signalen
+- **Langzeitverhalten**: Verhalten bei länger gedrücktem Schalter (Dimmen, Szenen)
+- **Mehrfachschaltung**: Erkennung und Verarbeitung mehrfacher Schalterbetätigungen
+- **Statusanzeige**: Rückmeldung des aktuellen Schaltzustands
+
+### Szenen-Konfiguration
+- **Szenen-Definition**: Erstellung und Verwaltung von Beleuchtungsszenen
+- **Szenen-Auswahl**: Zuordnung von Szenen zu Schaltersequenzen
+- **Szenen-Timing**: Übergangszeiten zwischen verschiedenen Szenen
+- **Szenen-Speicherung**: Dauerhafte Speicherung von Szenen-Einstellungen
+
+## Schalterfunktionen
+
+### Einfache Schaltung
+- **Ein/Aus**: Grundlegende Ein- und Ausschaltfunktion
+- **Toggle-Funktion**: Umschalten zwischen Ein- und Aus-Zustand
+- **Impulsfunktion**: Kurze Schaltimpulse für spezielle Anwendungen
+
+### Erweiterte Schaltung
+- **Dimm-Funktion**: Helligkeitssteuerung über Schaltersequenzen
+- **Szenen-Steuerung**: Aktivierung vordefinierter Beleuchtungsszenen
+- **Sequenz-Durchlauf**: Automatisches Durchlaufen verschiedener Helligkeitsstufen
+
+### Timing-Funktionen
+- **Verzögerung**: Zeitverzögerung bei Schalterbetätigung
+- **Automatische Abschaltung**: Zeitgesteuerte Abschaltung nach Aktivierung
+- **Nachlaufzeit**: Einstellbare Nachlaufzeit vor Abschaltung
+
+## Anwendungsbereiche
+
+### Innenbeleuchtung
+- **Wohnräume**: Komfortable Beleuchtungssteuerung über Wandschalter
+- **Büros**: Arbeitsplatzbeleuchtung mit verschiedenen Helligkeitsstufen
+- **Flure**: Einfache Ein/Aus-Steuerung für Durchgangsbereiche
+- **Treppenhäuser**: Sicherheitsbeleuchtung mit Zeitsteuerung
+
+### Außenbeleuchtung
+- **Eingangsbereiche**: Begrüßungsbeleuchtung mit Schaltersteuerung
+- **Terrassen**: Stimmungsbeleuchtung mit Szenen-Funktion
+- **Gartenbereiche**: Wegbeleuchtung mit manueller Steuerung
+- **Sicherheitsbeleuchtung**: Notbeleuchtung mit Schalteraktivierung
+
+### Spezialanwendungen
+- **Notbeleuchtung**: Manuelle Aktivierung in Notsituationen
+- **Wartungsmodus**: Vollhelligkeit für Wartungsarbeiten
+- **Präsentationsmodus**: Angepasste Beleuchtung für Präsentationen
+- **Reinigungsmodus**: Optimale Beleuchtung für Reinigungsarbeiten
+
+## Kompatibilität
+
+- **Standard-Schalter**: Kompatibel mit herkömmlichen Wandschaltern
+- **Taster**: Unterstützung für Tasterschaltungen
+- **Dimmer**: Integration mit externen Dimmern
+- **Smart-Switches**: Kompatibilität mit intelligenten Schaltersystemen
+
+Diese Konfiguration ermöglicht eine flexible und benutzerfreundliche Beleuchtungssteuerung über externe Schalter und bietet dabei erweiterte Funktionen für verschiedene Anwendungsszenarien.
+
+## Seitennavigation
+
+- **Zeit-Dimmprofil**: Zeitbasiertes Dimmprofil (ausgegraut/inaktiv)
+- **Bewegungserkennung**: Bewegungserkennungseinstellungen (ausgegraut/inaktiv)
+- **Astro Uhr**: Astronomische Uhreneinstellungen (ausgegraut/inaktiv)
+- **Bewegungsvoll. Dimmprofil**: Bewegungsgesteuertes Dimmprofil (ausgegraut/inaktiv)
+- **Kalender**: Kalenderbasierte Zeitplanung
+
+## Untere Bedienelemente
+
+- **Einstellungen laden**: Einstellungen aus einer Datei oder einem Profil laden
+- **Einstellungen speichern**: Aktuelle Einstellungen in einer Datei oder einem Profil speichern
+- **OK**: Alle Änderungen bestätigen und anwenden
+- **Abbrechen**: Abbrechen und Fenster ohne Speichern der Änderungen schließen
+- **Übernehmen**: Änderungen anwenden ohne das Fenster zu schließen
