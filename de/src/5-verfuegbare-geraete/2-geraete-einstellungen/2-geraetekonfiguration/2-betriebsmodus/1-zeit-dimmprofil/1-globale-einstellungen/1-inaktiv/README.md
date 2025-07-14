@@ -1,35 +1,41 @@
 # Inaktiv
-![Inaktiv](inaktiv.png)  
+
+![Inaktiv](inaktiv.png)
+
 *Kanal deaktiviert.*
 
-This window allows you to configure the operating modes for up to four channels within a lighting or automation control system. Here's a breakdown of all selectable options and controls available in this settings panel:
+Dieses Fenster ermöglicht die Konfiguration der Betriebsmodi für bis zu vier Kanäle innerhalb eines Beleuchtungs- oder Automatisierungssteuerungssystems. Hier ist eine Aufschlüsselung aller auswählbaren Optionen und Steuerelemente, die in diesem Einstellungsbereich verfügbar sind:
 
-## Main Sections
+## Hauptbereiche
 
-### 1. Zeit-Dimmprofil (Time Dimming Profile)
-- This section is currently active, as indicated by the highlighted icon on the left
-- Used to set up time-based dimming profiles for each channel
+### 1. Zeit-Dimmprofil
 
-### 2. Globale Einstellungen (Global Settings)
-- The main area displays global operating mode settings for all channels
+- Dieser Bereich ist aktuell aktiv, wie durch das hervorgehobene Symbol auf der linken Seite angezeigt
+- Wird verwendet, um zeitbasierte Dimmprofile für jeden Kanal einzurichten
 
-## Betriebsmodus (Operating Mode) Options
+### 2. Globale Einstellungen
 
-For each of the four channels (1. Kanal, 2. Kanal, 3. Kanal, 4. Kanal), you can select an operating mode from a dropdown menu. The available settings are:
+- Der Hauptbereich zeigt globale Betriebsmodus-Einstellungen für alle Kanäle an
 
-- **Inaktiv**: The channel is inactive (off or not in use)
-- *(Other options may be available in the dropdown, but in the provided screenshot, all channels are set to "Inaktiv". Typically, other options could include "Aktiv", "Automatik", or specific dimming or control profiles, depending on the system.)*
+## Betriebsmodus-Optionen
 
-## Side Navigation
-- **Zeit-Dimmprofil**: Time-based dimming profile (active)
-- **Bewegungserkennung**: Motion detection settings (grayed out/inactive)
-- **Astro Uhr**: Astronomical clock settings (grayed out/inactive)
-- **Bewegungsvoll. Dimmprofil**: Motion-controlled dimming profile (grayed out/inactive)
-- **Kalender**: Calendar-based scheduling
+Für jeden der vier Kanäle (1. Kanal, 2. Kanal, 3. Kanal, 4. Kanal) können Sie einen Betriebsmodus aus einem Dropdown-Menü auswählen. Die verfügbaren Einstellungen sind:
 
-## Bottom Bar Controls
-- **Einstellungen laden**: Load settings from a file or profile
-- **Einstellungen speichern**: Save current settings to a file or profile
-- **OK**: Confirm and apply all changes
-- **Abbrechen**: Cancel and close the window without saving changes
-- **Übernehmen**: Apply changes without closing the window
+- **Inaktiv**: Der Kanal ist inaktiv (ausgeschaltet oder nicht in Gebrauch)
+- *(Andere Optionen können im Dropdown verfügbar sein, aber im bereitgestellten Screenshot sind alle Kanäle auf "Inaktiv" eingestellt. Typischerweise könnten andere Optionen "Aktiv", "Automatik" oder spezifische Dimm- oder Steuerungsprofile umfassen, je nach System.)*
+
+## Seitennavigation
+
+- **Zeit-Dimmprofil**: Zeitbasiertes Dimmprofil (aktiv)
+- **Bewegungserkennung**: Bewegungserkennungseinstellungen (ausgegraut/inaktiv)
+- **Astro Uhr**: Astronomische Uhreneinstellungen (ausgegraut/inaktiv)
+- **Bewegungsvoll. Dimmprofil**: Bewegungsgesteuertes Dimmprofil (ausgegraut/inaktiv)
+- **Kalender**: Kalenderbasierte Zeitplanung
+
+## Untere Bedienelemente
+
+- **Einstellungen laden**: Einstellungen aus einer Datei oder einem Profil laden
+- **Einstellungen speichern**: Aktuelle Einstellungen in einer Datei oder einem Profil speichern
+- **OK**: Alle Änderungen bestätigen und anwenden
+- **Abbrechen**: Abbrechen und Fenster ohne Speichern der Änderungen schließen
+- **Übernehmen**: Änderungen anwenden ohne das Fenster zu schließen
