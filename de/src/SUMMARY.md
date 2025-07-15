@@ -53,7 +53,7 @@
     - [Mobilfunkverbindung](./5-verfuegbare-geraete/2-geraete-einstellungen/4-mobilfunkverbindung/README.md)
     - [Externe Eingänge](./5-verfuegbare-geraete/2-geraete-einstellungen/5-externe-eingaenge/README.md)
     - [Sensoren](./5-verfuegbare-geraete/2-geraete-einstellungen/6-sensoren/README.md)
-      - [Helligkeitssensor Konfiguration](./5-verfuegbare-geraete/2-geraete-einstellungen/6-sensoren/1-helligkeitssensor-konfiguration/README.md)
+      - [Helligkeitssensor Konfiguration](./5-verfuegbare-geraete/2-geraete-einstellungen/6-sensoren/1-helligkeitssensor-konfigurationen/README.md)
       - [Bewegungszähler zurücksetzen](./5-verfuegbare-geraete/2-geraete-einstellungen/6-sensoren/2-bewegungszaehler-zuruecksetzen/README.md)
     - [Neigungssensor](./5-verfuegbare-geraete/2-geraete-einstellungen/7-neigungssensor/README.md)
     - [Umweltsensoren](./5-verfuegbare-geraete/2-geraete-einstellungen/8-umweltsensoren/README.md)
