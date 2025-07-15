@@ -1,4 +1,4 @@
-# Radar Bewegungsmelder
-![Radar Bewegungsmelder](radar-bewegungsmelder.png)  
+# Radarsensor-Firmware-Aktualisieren
+![Radarsensor-Firmware-Aktualisieren](radarsensor-firmware-aktualisieren.png)  
 
 beschreibung
