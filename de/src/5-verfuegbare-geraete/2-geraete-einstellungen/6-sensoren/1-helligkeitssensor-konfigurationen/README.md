@@ -1,8 +1,6 @@
-# Helligkeitssensor-Konfiguration
+# Helligkeitssensor-Konfigurationen
 
-![Helligkeitssensor-Konfiguration](helligkeitssensor-konfiguration.png)
-
-**Helligkeitssensor-Konfiguration**
+![Helligkeitssensor-Konfigurationen](helligkeitssensor-konfigurationen.png)
 
 Konfigurieren Sie die Helligkeitssensoren für eine optimale Tageslichtregelung und automatische Beleuchtungssteuerung. Diese Funktion ermöglicht es, die Beleuchtung intelligent an die natürlichen Lichtverhältnisse anzupassen und dadurch Energie zu sparen und den Komfort zu erhöhen.
 
