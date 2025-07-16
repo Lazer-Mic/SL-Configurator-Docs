@@ -1,256 +1,248 @@
 # Allgemeine Gerätebefehle
 
 ![Allgemeine Gerätebefehle](allgemeine-geraetebefehle.png)
-*Allgemeine Geräte-Kommandos - Auf Werkseinstellungen zurücksetzen und Gerät neu starten*
 
-**Grundlegende System-Kommandos**
+**Allgemeine Gerätebefehle - esave Configurator Servicemodus**
 
-Essenzielle Gerätebefehle für Systemrücksetzung und Neustart mit umfassenden Sicherheitsmaßnahmen und Wiederherstellungsfunktionen.
+Verwalten Sie kritische Systemfunktionen des esave Lighting Controllers mit professionellen Werkzeugen für Werksrücksetzung und Systemneustarts. Diese essentiellen Gerätebefehle ermöglichen die sichere Systemwartung und Problembehandlung mit umfassenden Sicherheitsmaßnahmen.
+
+*Der Servicemodus kann unter dem Menüpunkt Anzeige > Service Mode aktiviert werden.*
 
 ## Hauptbereiche
 
-### 1. Werkseinstellungen zurücksetzen
-- Vollständige Systemrücksetzung auf Werkseinstellungen
-- Löschung aller benutzerdefinierten Konfigurationen
-- Wiederherstellung der ursprünglichen Geräteparameter
-- Sicherheitsbestätigung vor Ausführung
+### 1. Service-Tab-Navigation
 
-### 2. Gerät neu starten
-- Soft-Reset für kontrollierte Systemneustarts
-- Beibehaltung aller Konfigurationen
-- Speicher- und Prozess-Neuinitialisierung
-- Schnelle Systemwiederherstellung
+Die obere Tab-Leiste bietet Zugang zu allen Servicemodus-Bereichen:
+- **Allgemeine Geräte-Kommandos**: Grundlegende Systemoperationen (aktuell aktiv)
+- **Gerätestatus**: Aktueller Systemzustand und Betriebsinformationen
+- **Empfang**: Signalstärke und Konnektivitätsstatus
+- **DALI-2 Diagnosedaten**: DALI-Bus-Diagnose und Analysefunktionen
+- **Gerätekonfiguration**: Systemparameter und Betriebsmoduseinstellungen
+- **Lichtstromkorrektur (LFC)**: LED-Alterungskomp nsation und Kalibrierung
+- **Passwortfinder**: Distributor-Zugangstools für Autorisierung
 
-### 3. Sicherheitsmaßnahmen
-- Bestätigungsdialoge für kritische Operationen
-- Backup-Erstellung vor Rücksetzung
-- Rollback-Mechanismen bei Problemen
-- Audit-Protokollierung aller Aktivitäten
+### 2. Kritische Systemkommandos
 
-### 4. Fehlerbehandlung
-- Robuste Ausführung kritischer Kommandos
-- Fehlerprotokollierung und -analyse
-- Recovery-Mechanismen bei Ausfällen
-- Statusüberwachung während Ausführung
+Der Hauptbereich zeigt zwei essentiielle Gerätebefehle:
+- **Werksreset**: Vollständige Rücksetzung auf Auslieferungszustand
+- **Soft-Reset**: Kontrollierter Systemneumstart ohne Datenverlust
+- **Visueller Status**: Farbcodierte Icons für Operationstyp-Unterscheidung
 
-## Verfügbare Kommandos
+## Auf Werkseinstellungen zurücksetzen
 
-### Auf Werkseinstellungen zurücksetzen
-- **Beschreibung**: "Setzt alle Geräteeinstellungen auf die Werkseinstellungen zurück"
-- **Icon**: Rotes Zahnrad-Symbol für kritische Operation
-- **Funktion**: Vollständige Systemrücksetzung
-- **Auswirkung**: Alle benutzerdefinierten Einstellungen werden gelöscht
+### Factory Reset Kommando
 
-### Gerät neu starten
-- **Beschreibung**: "Startet das Gerät neu (Soft-Reset)"
-- **Icon**: Grünes Refresh-Symbol für Neustart
-- **Funktion**: Kontrollierter Systemneumstart
-- **Auswirkung**: Neuinitialisierung ohne Konfigurationsverlust
+**Status-Icon:** 🔧 Rotes Zahnrad (Kritische Operation)
+- **Funktion**: "Setzt alle Geräteeinstellungen auf die Werkseinstellungen zurück"
+- **Operationstyp**: Vollständige Systemrücksetzung (Factory Reset)
+- **Datenbehandlung**: Löscht alle benutzerdefinierten Konfigurationen
+- **Sicherheitsstufe**: Höchste Sicherheitsstufe mit Mehrfachbestätigung
 
-## Werkseinstellungen-Reset
+**Rücksetzungsumfang:**
+- **Netzwerkkonfiguration**: IP-Adressen, WLAN-Einstellungen, Mobilfunkparameter
+- **Beleuchtungsprofile**: Dimming-Kurven, Zeitprogramme, Szenario-Einstellungen
+- **Sensorkonfiguration**: Radar-Parameter, Empfindlichkeitseinstellungen, Klassifizierungslimiten
+- **Benutzerdaten**: Passwörter, Benutzerkonten, Session-Tokens
+- **Betriebsstatistiken**: Zähler, Laufzeiten, Verbrauchsdaten (optional)
 
-### Rücksetzungsumfang
-- **Konfigurationsparameter**: Alle benutzerdefinierten Einstellungen
-- **Netzwerkeinstellungen**: IP-Adressen, WLAN-Konfiguration
-- **Betriebsmodi**: Dimming-Profile, Zeitprogramme
-- **Sensoreinstellungen**: Empfindlichkeit, Schwellenwerte
-- **Benutzerdaten**: Passwörter, Benutzerkonten
-
-### Beibehaltene Daten
-- **Firmware-Version**: Aktuelle Firmware bleibt erhalten
-- **Hardware-Kalibrierung**: Werksseitige Kalibrierungsdaten
-- **Seriennummer**: Eindeutige Geräteidentifikation
-- **Zertifikate**: Sicherheitszertifikate und Lizenzen
+**Beibehaltene Systemdaten:**
+- **Firmware-Version**: Aktuelle Betriebssoftware bleibt erhalten
+- **Hardware-Kalibrierung**: Werksseitige Sensor- und LED-Kalibrierung
+- **Geräte-Identifikation**: Seriennummer, MAC-Adressen, Zertifikate
+- **Lizenzen**: Software-Lizenzen und Freischaltungen
 
 ### Sicherheitsmaßnahmen
-- **Bestätigungsdialog**: Mehrfache Sicherheitsabfrage
-- **Warnung**: Hinweis auf Datenverlust
-- **Backup-Option**: Automatische Sicherung vor Reset
-- **Rollback**: Möglichkeit zur Wiederherstellung
 
-## Geräte-Neustart
+**Mehrstufiger Bestätigungsprozess:**
+1. **Primärbestätigung**: Klick auf Werksreset-Button
+2. **Warnhinweis**: Detaillierte Information über Datenverlust
+3. **Sicherheitsabfrage**: "Sind Sie sicher?" Dialog
+4. **Finale Bestätigung**: "Wirklich alle Daten löschen?" Abfrage
 
-### Neustart-Typen
-- **Soft-Reset**: Kontrollierte Neuinitialisierung
-- **Warm-Reset**: Neustart mit Speichererhaltung
-- **Cold-Reset**: Vollständige Systemrücksetzung
-- **Selective Reset**: Teilweise Neuinitialisierung
+**Automatische Sicherungen:**
+- **Konfigurations-Backup**: Automatische Erstellung einer Sicherungskopie
+- **System-Snapshot**: Vollständige Systemzustandssicherung
+- **Recovery-Point**: Wiederherstellungspunkt für Notfall-Rollback
+- **Audit-Log**: Protokollierung der Reset-Operation mit Zeitstempel
 
-### Neustart-Prozess
-- **Initialisierung**: Kontrollierter Shutdown laufender Prozesse
-- **Speicher-Clearing**: Bereinigung des Arbeitsspeichers
-- **System-Reload**: Neuladung des Betriebssystems
-- **Service-Restart**: Neustart aller Systemdienste
+## Gerät neu starten
 
-### Erhaltene Daten
-- **Konfiguration**: Alle Einstellungen bleiben erhalten
-- **Logs**: Historische Protokolldaten
-- **Zähler**: Betriebsstunden und Verbrauchswerte
-- **Netzwerk**: Bestehende Verbindungen
+### Soft-Reset Kommando
+
+**Status-Icon:** 🔄 Grüner Refresh-Pfeil (Sichere Operation)
+- **Funktion**: "Startet das Gerät neu (Soft-Reset)"
+- **Operationstyp**: Kontrollierter Systemneumstart ohne Datenverlust
+- **Konfigurationserhaltung**: Alle Einstellungen bleiben vollständig erhalten
+- **Sicherheitsstufe**: Standard-Sicherheit mit einfacher Bestätigung
+
+**Neustart-Sequenz:**
+1. **Graceful Shutdown**: Kontrolliertes Herunterfahren aller Services
+2. **Speicher-Clearing**: Bereinigung des RAM und Cache-Speicher
+3. **Hardware-Reset**: Neuinitialisierung der Hardware-Komponenten
+4. **Service-Restart**: Systematischer Neustart aller Systemdienste
+5. **Konfiguration-Reload**: Laden der gespeicherten Konfiguration
+6. **System-Validation**: Überprüfung der Systemintegrität
+
+**Beibehaltene Daten:**
+- **Komplette Konfiguration**: Alle Benutzereinstellungen bleiben erhalten
+- **Netzwerkverbindungen**: Automatische Wiederherstellung aller Verbindungen
+- **Betriebsstatistiken**: Zähler, Laufzeiten, historische Daten
+- **Session-Daten**: Aktive Sitzungen werden nach Neustart wiederhergestellt
+
+### Neustart-Anwendungen
+
+**Systemwartung:**
+- **Speicher-Optimierung**: Bereinigung von Memory-Leaks und Fragmentierung
+- **Cache-Clearing**: Entfernung veralteter oder korrupter Cache-Daten
+- **Service-Refresh**: Neuinitialisierung hängender oder instabiler Services
+- **Performance-Reset**: Wiederherstellung optimaler Systemleistung
+
+**Problembehandlung:**
+- **Netzwerk-Probleme**: Neuaufbau gestörter Verbindungen
+- **Sensor-Kalibrierung**: Neukalibrierung nach Umgebungsveränderungen
+- **Software-Instabilität**: Behebung temporärer Software-Probleme
+- **Hardware-Synchronisation**: Neusynchronisation der Hardware-Komponenten
+
+## Bedienelemente und Navigation
+
+### Service-Tab-Übersicht
+
+Die Servicemodus-Navigation zeigt alle verfügbaren Diagnosebereiche:
+
+**Aktiver Tab - Allgemeine Geräte-Kommandos:**
+- **Status**: Aktuell ausgewählt (highlighted)
+- **Inhalt**: Kritische Systemoperationen
+- **Zugriff**: Factory Reset und Soft Reset Funktionen
+
+**Weitere Service-Tabs:**
+- **Gerätestatus**: Live-Systemüberwachung und Zustandsanzeigen
+- **Empfang**: Mobilfunk-, WLAN- und Konnektivitätsinformationen
+- **DALI-2 Diagnosedaten**: DALI-Bus-Analyse und Geräte-Diagnose
+- **Gerätekonfiguration**: Hardware-Parameter und Betriebsmoduseinstellungen
+- **Lichtstromkorrektur (LFC)**: LED-Aging-Kompensation und Kalibrierung
+- **Passwortfinder**: Distributor-Autorisierung und Zugangsverwaltung
+
+### Geräteauswahl und Context
+
+**Linke Seitenleiste - Gerätehierarchie:**
+- **esave USB-Stick**: Angeschlossenes Konfigurationstool
+- **Verfügbare Geräte**: Expandierbare Liste aller erkannten esave Devices
+- **Aktuelles Gerät**: "esave USB-Stick" (blau markiert, aktuell ausgewählt)
+- **Gerätestatus**: Verbindungsindikator und Kommunikationsstatus
+
+**Hauptmenü-Navigation:**
+- **slConfigurator**: Hauptkonfigurationstool mit vollständiger Geräte-Integration
+- **Einstellungen, Anzeige, Werkzeuge**: Zusätzliche Konfigurationsbereiche
+- **Gerätelist, Leuchte, Hilfe**: Erweiterte Verwaltungs- und Support-Funktionen
+
+## Kommando-Ausführung
+
+### Ausführungsprozess
+
+**Benutzerinteraktion:**
+1. **Tab-Auswahl**: Navigation zu "Allgemeine Geräte-Kommandos"
+2. **Kommando-Wahl**: Auswahl zwischen Werksreset oder Neustart
+3. **Sicherheitsvalidierung**: Durchlaufen der Bestätigungsdialoge
+4. **Ausführungsstart**: Initiation der gewählten Operation
+5. **Progress-Monitoring**: Überwachung des Ausführungsfortschritts
+6. **Completion-Bestätigung**: Erfolgsmeldung und Systemvalidierung
+
+**Systemverhalten:**
+- **Immediate Feedback**: Sofortige Rückmeldung bei Kommando-Auswahl
+- **Progress Indication**: Fortschrittsbalken und Status-Updates
+- **Error Handling**: Automatische Fehlerbehandlung und Recovery
+- **Success Notification**: Bestätigung der erfolgreichen Kommando-Ausführung
+
+### Sicherheitsfeatures
+
+**Zugriffskontrolle:**
+- **Administratorrechte**: Beschränkung auf autorisierte Benutzer
+- **Session-Validation**: Überprüfung der aktuellen Sitzung
+- **Device-Authentication**: Bestätigung der Geräteberechtigung
+- **Operation-Authorization**: Rollenbasierte Kommando-Freigabe
+
+**Datenintegrität:**
+- **Pre-Operation Backup**: Automatische Sicherung vor kritischen Operationen
+- **Integrity Checks**: Validierung der Systemintegrität
+- **Rollback Capability**: Wiederherstellungsmöglichkeit bei Problemen
+- **Consistency Validation**: Überprüfung der Datenkonsistenz
+
+## Technische Spezifikationen
+
+### Kommando-Performance
+
+- **Ausführungszeit Factory Reset**: 30-60 Sekunden (abhängig von Datenmenge)
+- **Ausführungszeit Soft Reset**: 15-30 Sekunden (Standard-Neustart)
+- **Backup-Erstellung**: 5-10 Sekunden (automatisch vor Reset)
+- **Validierungszeit**: 3-5 Sekunden (Systemintegritätsprüfung)
+
+### Systemanforderungen
+
+- **Arbeitsspeicher**: 64MB RAM für Backup-Erstellung
+- **Storage**: 16MB für temporäre Backup-Dateien
+- **Prozessor**: ARM Cortex-M4 für Kommando-Verarbeitung
+- **Netzwerk**: Aufrechte Verbindung für Remote-Operationen
+
+### Kompatibilität
+
+- **esave Controller**: Alle esave Lighting Controller Generationen
+- **Firmware-Versionen**: Ab Firmware v2.0 (Factory Reset ab v2.5)
+- **Protokolle**: USB, DALI-2, MQTT, HTTP/HTTPS
+- **Betriebssysteme**: Windows, macOS, Linux (slConfigurator)
 
 ## Anwendungsszenarien
 
-### Problembehandlung
-- **System-Instabilität**: Neustart zur Stabilisierung
-- **Speicher-Leaks**: Bereinigung des Arbeitsspeichers
-- **Hängende Prozesse**: Neuinitialisierung blockierter Services
-- **Netzwerk-Probleme**: Neuaufbau von Verbindungen
+### Inbetriebnahme
 
-### Wartung
-- **Planmäßige Neustarts**: Regelmäßige Systemreinigung
-- **Firmware-Updates**: Neustart nach Updates
-- **Konfigurationsänderungen**: Aktivierung neuer Einstellungen
-- **Diagnostik**: Systemzustand nach Neustart
+**Neue Installation:**
+- **Werksreset**: Sauberer Ausgangszustand für Erstkonfiguration
+- **Baseline-Setup**: Definierter Startzustand für alle Parameter
+- **Konfigurationsvorbereitung**: Bereintigung für projektspezifische Einstellungen
+- **Qualitätssicherung**: Konsistente Ausgangsbasis für alle Installationen
 
-### Konfiguration
-- **Rücksetzung**: Zurückkehr zu bekannten Einstellungen
-- **Standardkonfiguration**: Wiederherstellung der Werkseinstellungen
-- **Fehlerkorrektur**: Behebung von Konfigurationsfehlern
-- **Neuinstallation**: Vorbereitung für neue Konfiguration
+### Wartung und Service
 
-### Notfallsituationen
-- **Systemausfall**: Wiederherstellung nach Problemen
-- **Korrupte Konfiguration**: Rücksetzung auf funktionsfähige Einstellungen
-- **Sicherheitsvorfälle**: Bereinigung nach Sicherheitsproblemen
-- **Hardware-Probleme**: Neuinitialisierung nach Reparaturen
+**Planmäßige Wartung:**
+- **Soft Reset**: Monatliche Systemreinigung und Memory-Optimierung
+- **Cache-Clearing**: Entfernung alter Daten und temporärer Dateien
+- **Service-Refresh**: Neustart nach Firmware-Updates oder Konfigurationsänderungen
+- **Preventive Maintenance**: Vorbeugende Systemoptimierung
 
-## Technische Implementierung
+**Störungsbeseitigung:**
+- **Problem-Isolation**: Werksreset zur Identifikation von Konfigurationsproblemen
+- **System-Recovery**: Soft Reset bei temporären Systeminstabilitäten
+- **Network-Reset**: Neustart zur Behebung von Konnektivitätsproblemen
+- **Performance-Optimization**: Systemreinigung bei Leistungsproblemen
 
-### Kommando-Verarbeitung
-- **Privileged Operations**: Ausführung mit Systemrechten
-- **Atomic Operations**: Unteilbare Kommando-Ausführung
-- **Transaction Handling**: Konsistente Zustandsübergänge
-- **Error Handling**: Robuste Fehlerbehandlung
+### Support und Diagnose
 
-### Sicherheitsmechanismen
-- **Access Control**: Zugriffskontrolle für kritische Kommandos
-- **Authentication**: Benutzerauthentifizierung vor Ausführung
-- **Authorization**: Rollenbasierte Berechtigung
-- **Audit Logging**: Vollständige Protokollierung
+**Remote-Support:**
+- **Standardisierte Ausgangslage**: Werksreset für konsistente Support-Basis
+- **Problem-Reproduktion**: Soft Reset zur Reproduktion von Fehlerzuständen
+- **Diagnose-Preparation**: Systemreinigung vor erweiterten Diagnoseverfahren
+- **Solution-Validation**: Reset zur Bestätigung von Problemlösungen
 
-### Systemintegration
-- **Service Communication**: Kommunikation mit Systemdiensten
-- **Hardware Interface**: Direkte Hardware-Ansteuerung
-- **Network Management**: Netzwerk-Konfiguration
-- **Database Operations**: Datenbank-Transaktionen
+## Vorteile der Allgemeinen Gerätebefehle
 
-## Sicherheitsaspekte
+### Systemzuverlässigkeit
 
-### Zugriffskontrolle
-- **Benutzerberechtigungen**: Rollenbasierte Kommando-Ausführung
-- **Administratorrechte**: Beschränkung auf autorisierte Benutzer
-- **Zwei-Faktor-Authentifizierung**: Zusätzliche Sicherheitsebene
-- **Session-Management**: Sichere Sitzungsverwaltung
+- **Robuste Operationen**: Sichere Ausführung kritischer Systemkommandos
+- **Fehlerresistenz**: Automatische Wiederherstellung bei Ausführungsproblemen
+- **Datenschutz**: Umfassende Backup-Strategien vor kritischen Operationen
+- **Konsistente Zuständde**: Definierte und reproduzierbare Systemzustände
 
-### Datenintegrität
-- **Backup-Erstellung**: Automatische Sicherung vor kritischen Operationen
-- **Konsistenzprüfung**: Validierung der Systemintegrität
-- **Rollback-Mechanismen**: Wiederherstellung bei Problemen
-- **Validation**: Überprüfung der Kommando-Parameter
+### Wartungseffizienz
 
-### Audit und Compliance
-- **Vollständige Protokollierung**: Aufzeichnung aller Kommando-Ausführungen
-- **Zeitstempel**: Genaue Zeitangaben für alle Operationen
-- **Benutzer-Tracking**: Nachverfolgung der Benutzeraktivitäten
-- **Compliance-Berichte**: Berichte für Regulierungsanforderungen
+- **Schnelle Problemlösung**: Effiziente Tools für häufige Wartungsaufgaben
+- **Automatisierte Prozesse**: Reduzierung manueller Eingriffe bei Routineoperationen
+- **Standardisierte Verfahren**: Einheitliche Vorgehensweise für alle Installationen
+- **Dokumentierte Operationen**: Vollständige Protokollierung für Nachverfolgung
 
-## Fehlerbehandlung
+### Professionelle Systemverwaltung
 
-### Ausführungsfehler
-- **Retry-Mechanismen**: Automatische Wiederholung bei temporären Fehlern
-- **Fallback-Strategien**: Alternative Ausführungswege
-- **Graceful Degradation**: Kontrollierte Systemreduktion
-- **Error Recovery**: Automatische Fehlerwiederherstellung
+- **Expertentools**: Spezialisierte Funktionen für Fachkräfte und Techniker
+- **Sichere Ausführung**: Mehrstufige Sicherheitsmaßnahmen für kritische Operationen
+- **Umfassende Kontrolle**: Vollständige Systemkontrolle über intuitive Bedienoberfläche
+- **Skalierbare Verwaltung**: Effiziente Verwaltung einzelner Geräte bis hin zu Großinstallationen
 
-### Systemfehler
-- **Crash Recovery**: Wiederherstellung nach Systemabstürzen
-- **Corruption Detection**: Erkennung von Datenkorruption
-- **Emergency Procedures**: Notfallverfahren bei kritischen Fehlern
-- **Safe Mode**: Sicherer Modus für Problembehandlung
-
-### Benutzer-Feedback
-- **Statusmeldungen**: Kontinuierliche Rückmeldung über Kommando-Status
-- **Fehlermeldungen**: Informative Fehlerbeschreibungen
-- **Fortschrittsanzeigen**: Visualisierung des Ausführungsfortschritts
-- **Completion Notifications**: Bestätigung der erfolgreichen Ausführung
-
-## Monitoring und Diagnostik
-
-### Systemüberwachung
-- **Resource Monitoring**: Überwachung von CPU, Speicher, Netzwerk
-- **Performance Metrics**: Leistungskennzahlen des Systems
-- **Health Checks**: Regelmäßige Systemgesundheitsprüfungen
-- **Threshold Monitoring**: Überwachung kritischer Schwellenwerte
-
-### Protokollierung
-- **Detaillierte Logs**: Umfassende Protokollierung aller Aktivitäten
-- **Log Rotation**: Automatische Verwaltung der Protokolldateien
-- **Centralized Logging**: Zentrale Sammlung aller Logs
-- **Real-time Monitoring**: Echtzeit-Überwachung kritischer Ereignisse
-
-### Diagnose-Tools
-- **System Information**: Detaillierte Systeminformationen
-- **Process Monitoring**: Überwachung laufender Prozesse
-- **Network Diagnostics**: Netzwerk-Diagnosefunktionen
-- **Hardware Status**: Überwachung des Hardware-Zustands
-
-## Best Practices
-
-### Vor der Ausführung
-- **Backup erstellen**: Vollständige Systemsicherung
-- **Dokumentation**: Aufzeichnung des aktuellen Systemzustands
-- **Zeitplanung**: Ausführung außerhalb kritischer Betriebszeiten
-- **Vorbereitung**: Bereitstellung aller benötigten Ressourcen
-
-### Während der Ausführung
-- **Überwachung**: Kontinuierliche Beobachtung des Ausführungsstatus
-- **Bereitschaft**: Vorbereitung auf mögliche Probleme
-- **Keine Störungen**: Vermeidung von Systemänderungen
-- **Protokollierung**: Dokumentation aller Aktivitäten
-
-### Nach der Ausführung
-- **Validierung**: Überprüfung der erfolgreichen Ausführung
-- **Funktionstest**: Test aller Systemfunktionen
-- **Dokumentation**: Aktualisierung der Systemdokumentation
-- **Monitoring**: Überwachung der Systemstabilität
-
-## Vorteile der Gerätebefehle
-
-### Systemwartung
-- **Einfache Bedienung**: Intuitive Benutzeroberfläche
-- **Zuverlässige Ausführung**: Robuste Kommando-Verarbeitung
-- **Schnelle Problemlösung**: Effiziente Troubleshooting-Optionen
-- **Präventive Wartung**: Regelmäßige Systemreinigung
-
-### Sicherheit
-- **Kontrollierte Ausführung**: Sichere Kommando-Verarbeitung
-- **Vollständige Protokollierung**: Nachverfolgbare Systemänderungen
-- **Rollback-Möglichkeiten**: Wiederherstellung bei Problemen
-- **Zugriffskontrolle**: Beschränkung auf autorisierte Benutzer
-
-### Effizienz
-- **Automatisierte Prozesse**: Reduzierung manueller Eingriffe
-- **Zentrale Verwaltung**: Einheitliche Kommando-Schnittstelle
-- **Batch-Verarbeitung**: Effiziente Massenoperationen
-- **Optimierte Performance**: Schnelle Ausführung kritischer Kommandos
-
-### Flexibilität
-- **Vielseitige Optionen**: Verschiedene Reset- und Neustart-Modi
-- **Anpassbare Parameter**: Konfigurierbare Kommando-Optionen
-- **Erweiterte Funktionen**: Zusätzliche Diagnose- und Wartungsfunktionen
-- **Integration**: Nahtlose Integration in bestehende Systeme
-
-> ## ℹ️ Allgemeine Gerätebefehle
->
-> **Grundlegende System-Kommandos für Wartung und Problembehandlung**
->
-> Unter den allgemeinen Gerätebefehlen gibt es die folgenden Befehle:
->
-> ### Verfügbare Kommandos:
-> - **Auf Werkseinstellungen zurücksetzen**: Setzt alle Geräteeinstellungen auf die Werkseinstellungen zurück
-> - **Gerät neu starten**: Führt einen Soft-Reset durch und das Gerät startet neu
-> - **Sicherheitsmaßnahmen**: Bestätigungsdialoge und Backup-Erstellung vor kritischen Operationen
-> - **Fehlerbehandlung**: Robuste Ausführung mit umfassender Protokollierung
-> - **Monitoring**: Kontinuierliche Überwachung des Ausführungsstatus
-
-*Die allgemeinen Gerätebefehle bieten essenzielle Systemfunktionen für Wartung, Problembehandlung und Systemwiederherstellung mit umfassenden Sicherheitsmaßnahmen und professioneller Protokollierung.*
+Diese allgemeinen Gerätebefehle bieten eine professionelle und sichere Grundlage für die Systemverwaltung von esave Lighting Controllern mit robusten Sicherheitsmaßnahmen und effizienten Wartungsoperationen.
